@@ -56,7 +56,7 @@
                     var unitKey = select.getElementsByTagName('option')[select.selectedIndex].value;
                     var earth = getEarthRadius(unitKey);
                     // And the radius in the entered units
-                    var radius = parseInt(document.getElementById('radiusInput').value);
+                    var radius = parseFloat(document.getElementById('radiusInput').value);
                     // Draw the circle
                     var points = getPoints(point.lat(), point.lng(), radius, earth);
                     overlay = new GPolygon(points, '#004de8', 1, 0.62, '#004de8', 0.27);
