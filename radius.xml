@@ -1,16 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-    <ModulePrefs title="Radius" description="Displays a circle of a specified radius over a clicked point on the map." author="Oliver Beattie" author_email="oliver@obeattie.com" height="150">
+    <ModulePrefs 
+        title="Radius"
+        description="Displays a circle of a specified radius over a clicked point on the map."
+        author="Oliver Beattie"
+        author_email="oliver@obeattie.com"
+        height="150">
         <Require feature="sharedmap"/>
     </ModulePrefs>
     
     <Content type="html"><![CDATA[
+        <label for="radiusInput">Radius</label> <input type="text" value="5" id="radiusInput" /><br />
+        <label for="units">Unit</label> <select id="unitSelector">
+            <option value="mi">Miles</option>
+            <option value="km">Kilometers</option>
+            <option value="ft">Feet</option>
+        </select>
         
-    <h2>Hello World!</h2>
-    
-    <script>
-        var map = new GMap2();
-    </script>
-    
+        <script>
+            var map = new GMap2();
+            var overlay = null;
+            
+            var getPoints = function(lat, lng, radius, earth){
+                var lat = (lat * Math.PI) / 180; //rad
+                var lon = (lng * Math.PI) / 180; //rad
+                var d = parseFloat(radius) / earth; // d = angular distance covered on earth's surface
+                var points = [];
+                for (x = 0; x <= 360; x++) 
+                { 
+                    brng = x * Math.PI / 180; //rad
+                    var destLat = Math.asin(Math.sin(lat)*Math.cos(d) + Math.cos(lat)*Math.sin(d)*Math.cos(brng));
+                    var destLng = ((lon + Math.atan2(Math.sin(brng)*Math.sin(d)*Math.cos(lat), Math.cos(d)-Math.sin(lat)*Math.sin(destLat))) * 180) / Math.PI;
+                    destLat = (destLat * 180) / Math.PI;
+                    points.push(new GLatLng(destLat, destLng));
+                }
+                return points;
+            }
+            
+            var getEarthRadius = function(key){
+                return {
+                    'mi': 3963.1676,
+                    'km': 6378.1,
+                    'ft': 20925524.9
+                }[key]
+            }
+            
+            GEvent.addListener(map, "click", function(meh, point) {
+                if (overlay) {
+                    map.removeOverlay(overlay);
+                    overlay = null;
+                }
+                if (point) {
+                    // Figure out the radius of the earth in the selected unit
+                    var select = document.getElementById('unitSelector');
+                    var unitKey = select.getElementsByTagName('option')[select.selectedIndex].value;
+                    var earth = getEarthRadius(unitKey);
+                    // And the radius in the entered units
+                    var radius = parseInt(document.getElementById('radiusInput').value);
+                    // Draw the circle
+                    var points = getPoints(point.lat(), point.lng(), radius, earth);
+                    overlay = new GPolygon(points, '#004de8', 1, 0.62, '#004de8', 0.27);
+                    map.addOverlay(overlay);
+                }
+            });
+        </script>
     ]]></Content>
 </Module>
