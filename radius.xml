@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+    <ModulePrefs title="Radius" description="Displays a circle of a specified radius over a clicked point on the map." author="Oliver Beattie" author_email="oliver@obeattie.com" height="150">
+        <Require feature="sharedmap"/>
+    </ModulePrefs>
+    
+    <Content type="html"><![CDATA[
+        
+    <h2>Hello World!</h2>
+    
+    <script>
+        var map = new GMap2();
+    </script>
+    
+    ]]></Content>
+</Module>
