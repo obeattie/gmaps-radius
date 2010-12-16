@@ -81,7 +81,7 @@
                 var select = document.getElementById('unitSelector');
                 var unitKey = select.getElementsByTagName('option')[select.selectedIndex].value;
                 var earth = earthRadiuses[unitKey];
-                var radius = parseInt(document.getElementById('radiusInput').value);
+                var radius = parseFloat(document.getElementById('radiusInput').value);
                 // Draw the polygon
                 var points = getPoints(e.latLng.lat(), e.latLng.lng(), radius, earth);
                 var polygon = new google.maps.Polygon({
