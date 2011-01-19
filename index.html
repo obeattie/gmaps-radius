@@ -12,6 +12,7 @@
     <title>Map Radius</title>
     <meta name="description" content="Google Map allowing a radius to be added">
     <meta name="author" content="Oliver Beattie">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     
@@ -95,7 +96,6 @@
                     map: map
                 });
                 google.maps.event.addListener(polygon, 'rightclick', polygonDestructionHandler);
-                google.maps.event.addListener(polygon, 'dblclick', polygonDestructionHandler);
                 google.maps.event.addListener(polygon, 'click', polygonDrawHandler);
             }
             
