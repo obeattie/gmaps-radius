@@ -95,6 +95,7 @@
                     map: map
                 });
                 google.maps.event.addListener(polygon, 'rightclick', polygonDestructionHandler);
+                google.maps.event.addListener(polygon, 'dbl', polygonDestructionHandler);
                 google.maps.event.addListener(polygon, 'click', polygonDrawHandler);
             }
             
