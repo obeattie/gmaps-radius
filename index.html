@@ -27,16 +27,19 @@
         /* Mine */
         body { font-family: Helvetica, Arial, sans-serif; font-size: 12px; }
         div#map { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-        form#options { position: absolute; bottom: 5px; left: 100px; background: #fff; border: 1px solid #666; padding: 3px 5px; }
+        form#options { position: absolute; bottom: 5px; left: 200px; background: #fff; border: 1px solid #666; padding: 3px 5px; }
         form#options em { margin: 0 10px; color: #666; }
     </style>
     
     <script type="text/javascript">
         var init = function() {
+            var london = new google.maps.LatLng(51.500358, -0.125506);
+            
             var opts = {
                 zoom: 10,
-                center: new google.maps.LatLng(51.500358, -0.125506), // London
-                mapTypeId: google.maps.MapTypeId.ROADMAP
+                center: london,
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                scaleControl: true
             };
             var map = new google.maps.Map(document.getElementById('map'), opts);
             
@@ -99,6 +102,15 @@
             }
             
             google.maps.event.addListener(map, 'click', polygonDrawHandler);
+            
+            // Draw five circles of various radii around the same point
+            var radii = [0.1, 0.1, 1, 1, 2, 3, 4, 5];
+            radii.forEach(function(radius){
+                document.getElementById('radiusInput').value = radius;
+                polygonDrawHandler({
+                    latLng: london
+                });
+            });
         }
     </script>
 </head>
@@ -109,7 +121,7 @@
     <form id="options">
         <label for="radiusInput">Radius</label> <input type="text" value="5" id="radiusInput" name="radiusInput" />
         <label for="unitSelector">Units</label> <select id="unitSelector" name="unitSelector">
-            <option value="mi">Miles</option>
+            <option value="mi" selected>Miles</option>
             <option value="km">Kilometers</option>
             <option value="ft">Feet</option>
             <option value="mt">Metres</option>
