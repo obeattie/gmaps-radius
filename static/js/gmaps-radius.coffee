@@ -20,46 +20,33 @@ $ ->
         fr: 31705.3408
     }
     
-    getPoints = (lat, lng, radius, earth) ->
-        lat = (lat * Math.PI) / 180 # (radians)
-        lon = (lng * Math.PI) / 180 # (radians)
-        d = parseFloat(radius) / earth # d = angular distance covered on earth's surface
-        
-        points = []
-        for x in [0..360]
-            brng = x * Math.PI / 180 # (radians)
-            destLat = Math.asin(Math.sin(lat) * Math.cos(d) + Math.cos(lat) * Math.sin(d) * Math.cos(brng))
-            destLng = ((lon + Math.atan2(Math.sin(brng) * Math.sin(d) * Math.cos(lat), Math.cos(d) - Math.sin(lat) * Math.sin(destLat))) * 180) / Math.PI
-            destLat = (destLat * 180) / Math.PI
-            points.push(new google.maps.LatLng(destLat, destLng))
-        
-        return points
-    
     polygonDestructionHandler = () ->
         @setMap(null)
     
-    polygonDrawHandler = (e) ->
-        # Get the desired radius + units
-        select = document.getElementById('unitSelector')
-        unitKey = select.getElementsByTagName('option')[select.selectedIndex].value
-        earth = earthRadii[unitKey]
+    circleDrawHandler = (e) ->
+        # Get the radius in meters (since that's what Google requires)
+        select = $('#unitSelector')
+        unitKey = $('option', select).eq(select[0].selectedIndex).val()
         radius = parseFloat(document.getElementById('radiusInput').value)
-        # Draw the polygon
-        points = getPoints(e.latLng.lat(), e.latLng.lng(), radius, earth)
-        polygon = new google.maps.Polygon({
-            paths: points
-            strokeColor: '#004de8'
-            strokeWeight: 1
-            strokeOpacity: 0.62
+        radius = (radius / earthRadii[unitKey]) * earthRadii['mt']
+        
+        circle = new google.maps.Circle({
+            center: e.latLng,
+            clickable: true
+            draggable: false
+            editable: false
             fillColor: '#004de8'
             fillOpacity: 0.27
-            geodesic: true
             map: map
+            radius: radius
+            strokeColor: '#004de8'
+            strokeOpacity: 0.62
+            strokeWeight: 1
         })
-        google.maps.event.addListener(polygon, 'rightclick', polygonDestructionHandler)
-        google.maps.event.addListener(polygon, 'click', polygonDrawHandler)
+        google.maps.event.addListener(circle, 'rightclick', polygonDestructionHandler)
+        google.maps.event.addListener(circle, 'click', circleDrawHandler)
     
-    google.maps.event.addListener(map, 'click', polygonDrawHandler)
+    google.maps.event.addListener(map, 'click', circleDrawHandler)
     
     searchInput = document.getElementById('searchInput')
     $(searchInput.form).on({ submit: () -> false })
