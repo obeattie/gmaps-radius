@@ -52,12 +52,16 @@ $ ->
     $(searchInput.form).on({ submit: () -> false })
     searchBox = new google.maps.places.SearchBox(searchInput)
     google.maps.event.addListener(searchBox, 'places_changed', () ->
+        console.log 'Places selected', searchBox.getPlaces()
         ### When a place is selected, center on it ###
         
-        viewport = searchBox.getPlaces()[0]?.geometry.viewport
-        if viewport?
-            map.fitBounds(viewport)
-            map.panToBounds(viewport)
+        location = searchBox.getPlaces()[0]
+        if location?
+            if location.geometry.viewport?
+                map.fitBounds(location.geometry.viewport)
+                map.panToBounds(location.geometry.viewport)
+            else
+                map.setCenter(location.geometry.location)
         
         return
     )
