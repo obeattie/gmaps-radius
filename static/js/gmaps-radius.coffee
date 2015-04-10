@@ -29,17 +29,18 @@ $ ->
         unitKey = $('option', select).eq(select[0].selectedIndex).val()
         radius = parseFloat(document.getElementById('radiusInput').value)
         radius = (radius / earthRadii[unitKey]) * earthRadii['mt']
-        
+        color = document.getElementById('circleColor').value
+
         circle = new google.maps.Circle({
             center: e.latLng,
             clickable: true
             draggable: false
             editable: false
-            fillColor: '#004de8'
+            fillColor: color
             fillOpacity: 0.27
             map: map
             radius: radius
-            strokeColor: '#004de8'
+            strokeColor: color
             strokeOpacity: 0.62
             strokeWeight: 1
         })
