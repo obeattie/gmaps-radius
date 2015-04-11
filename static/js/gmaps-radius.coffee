@@ -3,6 +3,10 @@ $ ->
         zoom: 10
         center: new google.maps.LatLng(51.500358, -0.125506) # London
         mapType: google.maps.MapTypeId.ROADMAP
+        disableDefaultUI: true
+        mapTypeControl: true
+        mapTypeControlOptions:
+            style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
     })
     
     earthRadii = {
@@ -20,7 +24,7 @@ $ ->
         fr: 31705.3408
     }
     
-    polygonDestructionHandler = () ->
+    polygonDestructionHandler = ->
         @setMap(null)
     
     circleDrawHandler = (e) ->
@@ -31,7 +35,7 @@ $ ->
         radius = (radius / earthRadii[unitKey]) * earthRadii['mt']
         
         circle = new google.maps.Circle({
-            center: e.latLng,
+            center: e.latLng
             clickable: true
             draggable: false
             editable: false
@@ -49,9 +53,9 @@ $ ->
     google.maps.event.addListener(map, 'click', circleDrawHandler)
     
     searchInput = document.getElementById('searchInput')
-    $(searchInput.form).on({ submit: () -> false })
+    $(searchInput.form).on({ submit: -> false })
     searchBox = new google.maps.places.SearchBox(searchInput)
-    google.maps.event.addListener(searchBox, 'places_changed', () ->
+    google.maps.event.addListener(searchBox, 'places_changed', ->
         console.log 'Places selected', searchBox.getPlaces()
         ### When a place is selected, center on it ###
         

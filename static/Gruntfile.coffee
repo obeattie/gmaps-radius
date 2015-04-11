@@ -17,6 +17,17 @@ module.exports = (grunt) ->
             }
         }
         
+        less: {
+            css: {
+                options: {
+                    compress: true
+                }
+                files: {
+                    './build/style/style.css': './style/*.less'
+                }
+            }
+        }
+        
         uglify: {
             js: {
                 options: {
@@ -36,8 +47,13 @@ module.exports = (grunt) ->
         
         watch: {
             js: {
-                files: ['./js/**.coffee'],
-                tasks: ['build:js'],
+                files: ['./js/**.coffee']
+                tasks: ['coffee:js', 'uglify:js']
+                options: { spawn: false }
+            }
+            css: {
+                files: ['./style/**.{css,less}']
+                tasks: ['less:css']
                 options: { spawn: false }
             }
         }
@@ -46,12 +62,17 @@ module.exports = (grunt) ->
             js: {
                 src: ['./build/js']
             }
+            css: {
+                src: ['./build/style']
+            }
         }
     })
     
+    grunt.loadNpmTasks('grunt-contrib-clean')
     grunt.loadNpmTasks('grunt-contrib-coffee')
+    grunt.loadNpmTasks('grunt-contrib-less')
     grunt.loadNpmTasks('grunt-contrib-uglify')
     grunt.loadNpmTasks('grunt-contrib-watch')
-    grunt.loadNpmTasks('grunt-contrib-clean')
     
-    grunt.registerTask('build', ['coffee', 'uglify'])
+    grunt.registerTask('build', ['coffee', 'less', 'uglify'])
+    grunt.registerTask('dev', ['build', 'watch'])
