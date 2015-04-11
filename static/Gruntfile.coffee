@@ -10,10 +10,24 @@ module.exports = (grunt) ->
                 files: [{
                     expand: true
                     cwd: './js'
-                    src: ['gmaps-radius.coffee']
-                    dest: './build/js/'
+                    src: ['**/*.coffee']
+                    dest: './build/js'
                     ext: '.js'
                 }]
+            }
+        }
+        
+        concat: {
+            js: {
+                options: {
+                    sourceMap: 'true'
+                }
+                files: {
+                    './build/js/app.js': [
+                        './js/**.js',
+                        './build/js/gmaps-radius.js',
+                    ]
+                }
             }
         }
         
@@ -35,20 +49,20 @@ module.exports = (grunt) ->
                     preserveComments: 'some'
                     banner: '/*! Made by Oliver Beattie. Built <%= grunt.template.today("yyyy-mm-dd") %> */\n'
                     compress: true
-                    sourceMap: './build/js/gmaps-radius.js.map'
-                    sourceMapIn: './build/js/gmaps-radius.js.map'
-                    sourceMappingURL: 'gmaps-radius.js.map'
+                    sourceMap: true
+                    sourceMapIn: './build/js/app.js.map'
+                    sourceMapIncludeSources: true
                 },
                 files: {
-                    './build/js/gmaps-radius.js': ['./build/js/gmaps-radius.js']
+                    './build/js/app.min.js': './build/js/app.js'
                 }
             }
         }
         
         watch: {
             js: {
-                files: ['./js/**.coffee']
-                tasks: ['coffee:js', 'uglify:js']
+                files: ['./js/**.{coffee,js}']
+                tasks: ['coffee:js', 'concat:js', 'uglify:js']
                 options: { spawn: false }
             }
             css: {
@@ -73,6 +87,7 @@ module.exports = (grunt) ->
     grunt.loadNpmTasks('grunt-contrib-less')
     grunt.loadNpmTasks('grunt-contrib-uglify')
     grunt.loadNpmTasks('grunt-contrib-watch')
+    grunt.loadNpmTasks('grunt-contrib-concat')
     
-    grunt.registerTask('build', ['coffee', 'less', 'uglify'])
+    grunt.registerTask('build', ['coffee', 'concat', 'less', 'uglify'])
     grunt.registerTask('dev', ['build', 'watch'])
