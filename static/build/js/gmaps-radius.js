@@ -8,8 +8,13 @@
       mapType: google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true,
       mapTypeControl: true,
+      zoomControl: true,
       mapTypeControlOptions: {
-        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+        position: google.maps.ControlPosition.TOP_RIGHT
+      },
+      zoomControlOptions: {
+        position: google.maps.ControlPosition.TOP_RIGHT
       }
     });
     earthRadii = {

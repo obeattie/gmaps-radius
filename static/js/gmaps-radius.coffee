@@ -1,16 +1,20 @@
 $ ->
     circles = []
-    
+
     map = new google.maps.Map($('#map')[0], {
         zoom: 10
         center: new google.maps.LatLng(51.500358, -0.125506) # London
         mapType: google.maps.MapTypeId.ROADMAP
         disableDefaultUI: true
         mapTypeControl: true
+        zoomControl: true
         mapTypeControlOptions:
             style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+            position: google.maps.ControlPosition.TOP_RIGHT
+        zoomControlOptions:
+            position: google.maps.ControlPosition.TOP_RIGHT
     })
-    
+
     earthRadii = {
         # The radius of the earth in various units
         mi: 3963.1676
@@ -25,10 +29,10 @@ $ ->
         rd: 1268213.63
         fr: 31705.3408
     }
-    
+
     polygonDestructionHandler = ->
         @setMap(null)
-    
+
     circleDrawHandler = (e) ->
         # Get the radius in meters (as Google requires)
         select = $('#unitSelector')
@@ -51,15 +55,15 @@ $ ->
         })
         google.maps.event.addListener(circle, 'rightclick', polygonDestructionHandler)
         google.maps.event.addListener(circle, 'click', circleDrawHandler)
-    
+
     google.maps.event.addListener(map, 'click', circleDrawHandler)
-    
+
     searchInput = document.getElementById('searchInput')
     $(searchInput.form).on({ submit: -> false })
     searchBox = new google.maps.places.SearchBox(searchInput)
     google.maps.event.addListener(searchBox, 'places_changed', ->
         ### When a place is selected, center on it ###
-        
+
         location = searchBox.getPlaces()[0]
         if location?
             if location.geometry.viewport?
@@ -67,13 +71,13 @@ $ ->
                 map.panToBounds(location.geometry.viewport)
             else
                 map.setCenter(location.geometry.location)
-        
+
         return
     )
-    
+
     $(window).on('hashchange', (e) ->
         query = (new URI()).fragment(true).query(true)
-        
+
         # Set center from lat/lng
         center_ = map.getCenter()
         center = [center_.lat(), center_.lng()]
@@ -87,16 +91,16 @@ $ ->
                 lat: newCenter[0],
                 lng: newCenter[1]
             })
-        
+
         # Set zoom from z
         if query.z?
             z = parseInt(query.z, 10)
             if !isNaN(z) then map.setZoom(z)
-        
+
         # Set radius from r
         if query.r?
             $('#radiusInput').val(query.r)
-        
+
         # Set unit from u
         if query.u?
             $('#unitSelector').val(query.u)
