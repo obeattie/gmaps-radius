@@ -66,8 +66,8 @@ l=h.substring(0,l.length)!==l?g(""):new g(h.substring(l.length)),l._parentURI=th
 
 (function() {
   $(function() {
-    var circleDrawHandler, circles, earthRadii, map, polygonDestructionHandler, searchBox, searchInput;
-    circles = [];
+    var circleDrawHandler, clearMarkers, earthRadii, map, markers, polygonDestructionHandler, searchBox, searchInput;
+    markers = [];
     map = new google.maps.Map($('#map')[0], {
       zoom: 10,
       center: new google.maps.LatLng(51.500358, -0.125506),
@@ -98,6 +98,14 @@ l=h.substring(0,l.length)!==l?g(""):new g(h.substring(l.length)),l._parentURI=th
     };
     polygonDestructionHandler = function() {
       return this.setMap(null);
+    };
+    clearMarkers = function() {
+      var i, len, m;
+      for (i = 0, len = markers.length; i < len; i++) {
+        m = markers[i];
+        m.setMap(null);
+      }
+      return markers = [];
     };
     circleDrawHandler = function(e) {
       var circle, radius, select, unitKey;
@@ -133,6 +141,7 @@ l=h.substring(0,l.length)!==l?g(""):new g(h.substring(l.length)),l._parentURI=th
 
       /* When a place is selected, center on it */
       var location;
+      clearMarkers();
       location = searchBox.getPlaces()[0];
       if (location != null) {
         if (location.geometry.viewport != null) {
@@ -141,6 +150,19 @@ l=h.substring(0,l.length)!==l?g(""):new g(h.substring(l.length)),l._parentURI=th
         } else {
           map.setCenter(location.geometry.location);
         }
+        markers.push(new google.maps.Marker({
+          position: location.geometry.location,
+          map: map,
+          title: location.name,
+          clickable: false,
+          icon: {
+            path: google.maps.SymbolPath.CIRCLE,
+            scale: 10,
+            strokeWeight: 0,
+            fillColor: '#34495e',
+            fillOpacity: .75
+          }
+        }));
       }
     });
     return $(window).on('hashchange', function(e) {

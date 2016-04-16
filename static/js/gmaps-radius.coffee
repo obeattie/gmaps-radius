@@ -1,5 +1,5 @@
 $ ->
-    circles = []
+    markers = []
 
     map = new google.maps.Map($('#map')[0], {
         zoom: 10
@@ -33,6 +33,10 @@ $ ->
     polygonDestructionHandler = ->
         @setMap(null)
 
+    clearMarkers = () ->
+        m.setMap(null) for m in markers
+        markers = []
+
     circleDrawHandler = (e) ->
         # Get the radius in meters (as Google requires)
         select = $('#unitSelector')
@@ -63,7 +67,7 @@ $ ->
     searchBox = new google.maps.places.SearchBox(searchInput)
     google.maps.event.addListener(searchBox, 'places_changed', ->
         ### When a place is selected, center on it ###
-
+        clearMarkers()
         location = searchBox.getPlaces()[0]
         if location?
             if location.geometry.viewport?
@@ -71,6 +75,20 @@ $ ->
                 map.panToBounds(location.geometry.viewport)
             else
                 map.setCenter(location.geometry.location)
+
+            # Create a marker at the location
+            markers.push(new google.maps.Marker({
+                position: location.geometry.location
+                map: map
+                title: location.name
+                clickable: false
+                icon:
+                    path: google.maps.SymbolPath.CIRCLE
+                    scale: 10
+                    strokeWeight: 0
+                    fillColor: '#34495e'
+                    fillOpacity: .75
+            }))
 
         return
     )
