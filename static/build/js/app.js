@@ -154,14 +154,7 @@ l=h.substring(0,l.length)!==l?g(""):new g(h.substring(l.length)),l._parentURI=th
           position: location.geometry.location,
           map: map,
           title: location.name,
-          clickable: false,
-          icon: {
-            path: google.maps.SymbolPath.CIRCLE,
-            scale: 10,
-            strokeWeight: 0,
-            fillColor: '#34495e',
-            fillOpacity: .75
-          }
+          clickable: false
         }));
       }
     });
