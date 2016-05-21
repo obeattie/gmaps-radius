@@ -66,7 +66,7 @@ l=h.substring(0,l.length)!==l?g(""):new g(h.substring(l.length)),l._parentURI=th
 
 (function() {
   $(function() {
-    var circleDrawHandler, clearMarkers, earthRadii, map, markers, polygonDestructionHandler, searchBox, searchInput;
+    var circleDrawHandler, clearMarkers, earthRadii, map, markers, polygonDestructionHandler, searchBox, searchInput, updateURL;
     markers = [];
     map = new google.maps.Map($('#map')[0], {
       zoom: 10,
@@ -158,9 +158,29 @@ l=h.substring(0,l.length)!==l?g(""):new g(h.substring(l.length)),l._parentURI=th
         }));
       }
     });
+    updateURL = function() {
+      var center, params, ref, u;
+      center = map.getCenter();
+      params = {
+        lat: _.round(center.lat(), 6).toString(),
+        lng: _.round(center.lng(), 6).toString(),
+        z: map.getZoom().toString(),
+        u: $('#unitSelector').val(),
+        r: $('#radiusInput').val()
+      };
+      if (!params.r) {
+        delete params['r'];
+      }
+      u = new URI();
+      u.setQuery(params);
+      return (ref = window.history) != null ? typeof ref.replaceState === "function" ? ref.replaceState(null, null, u.toString()) : void 0 : void 0;
+    };
+    google.maps.event.addListener(map, 'bounds_changed', _.debounce(updateURL, 200));
+    google.maps.event.addListener(map, 'zoom_changed', updateURL);
+    $('#unitSelector, #radiusInput').on('change', updateURL);
     return $(window).on('hashchange', function(e) {
       var center, center_, newCenter, query, z;
-      query = (new URI()).fragment(true).query(true);
+      query = (new URI()).query(true);
       center_ = map.getCenter();
       center = [center_.lat(), center_.lng()];
       newCenter = [center[0], center[1]];

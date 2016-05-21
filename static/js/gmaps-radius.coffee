@@ -83,12 +83,29 @@ $ ->
                 title: location.name
                 clickable: false
             }))
-
         return
     )
 
+    updateURL = ->
+        center = map.getCenter()
+        params = {
+            lat: _.round(center.lat(), 6).toString(),
+            lng: _.round(center.lng(), 6).toString(),
+            z: map.getZoom().toString(),
+            u: $('#unitSelector').val(),
+            r: $('#radiusInput').val()
+        }
+        delete params['r'] if !params.r
+        u = new URI()
+        u.setQuery(params)
+        window.history?.replaceState?(null, null, u.toString())
+
+    google.maps.event.addListener(map, 'bounds_changed', _.debounce(updateURL, 200))
+    google.maps.event.addListener(map, 'zoom_changed', updateURL)
+    $('#unitSelector, #radiusInput').on('change', updateURL)
+
     $(window).on('hashchange', (e) ->
-        query = (new URI()).fragment(true).query(true)
+        query = (new URI()).query(true)
 
         # Set center from lat/lng
         center_ = map.getCenter()
