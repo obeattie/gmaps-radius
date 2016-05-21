@@ -7,7 +7,7 @@
 .card () {
     .box-shadow(0 0 6px rgba(0, 0, 0, 0.298039));
     .rounded(2px);
-    
+
     background: #fff;
     color: @color;
     position: absolute;
@@ -22,9 +22,9 @@ body {
 
 input {
     .transition(.15s, linear);
-    
+
     border: 1px solid transparent;
-    
+
     &:focus {
         outline: none;
         border-color: @highlight-color;
@@ -41,39 +41,47 @@ input {
 
 #options {
     .card;
-    
-    left: 20px;
-    bottom: 40px;
-    width: 400px;
-    
+
+    left: 10px;
+    bottom: 35px;
+    width: auto;
+
     input {
         .rounded(2px);
-        
+
         border: 1px solid lighten(@color, 50%);
-        
+
         &:focus {
             border-color: @highlight-color;
         }
     }
-    
+
     label {
         font-weight: 500;
-        
+
         &:not(:first-child) {
-            margin-left: 10px;
+            margin-left: 15px;
         }
     }
-    
+
     #radiusInput {
-        width: 40px;
+        width: 50px;
         padding: 3px;
+        position: relative;
+        top: -1px;
     }
-    
+
+    #unitSelector {
+        font-family: Roboto, Arial, sans-serif;
+        position: relative;
+        top: -1px;
+    }
+
     #circleColor {
         width: 50px;
         padding: 3px;
     }
-    
+
     p {
         margin-top: 7px;
         color: lighten(@color, 30%);
@@ -82,8 +90,8 @@ input {
 
 #search input {
     .card;
-    
-    top: 20px;
-    left: 20px;
+
+    top: 10px;
+    left: 10px;
     width: 400px;
 }
