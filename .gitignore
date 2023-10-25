@@ -36,6 +36,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+*.eslintcache
 
 # generated files
 /src/__generated__/
