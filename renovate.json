@@ -2,6 +2,7 @@
 	"extends": [
 		"config:js-app",
 		":automergeMinor",
+		":automergeDigest",
 		":prHourlyLimitNone",
 		":prImmediately"
 	],
@@ -17,5 +18,7 @@
 	"lockFileMaintenance": {
 		"enabled": true,
 		"automerge": true
-	}
+	},
+	"prHourlyLimit": 0,
+	"prConcurrentLimit": 0
 }
