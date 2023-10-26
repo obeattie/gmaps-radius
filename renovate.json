@@ -1,9 +1,9 @@
 {
 	"extends": [
 		"config:js-app",
-		"schedule:weekly",
-		"group:allNonMajor",
-		":automergeMinor"
+		":automergeMinor",
+		":prHourlyLimitNone",
+		":prImmediately"
 	],
 	"labels": [
 		"dependencies"
