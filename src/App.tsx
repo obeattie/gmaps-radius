@@ -64,8 +64,6 @@ export default function App(): ReactElement {
 						<option value='ch'>Chains</option>
 						<option value='rd'>Rods</option>
 						<option value='fr'>Furlongs</option>
-						<option value='ls'>Light second</option>
-						<option value='lms'>Light millisecond</option>
 					</select>
 				</form>
 				<div className='flex w-full text-xs'>
