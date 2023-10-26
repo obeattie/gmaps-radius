@@ -1,11 +1,24 @@
 {
 	"extends": [
 		"config:js-app",
-		"schedule:weekly",
-		"group:allNonMajor",
-		":automergeMinor"
+		":automergeMinor",
+		":automergeDigest",
+		":prHourlyLimitNone",
+		":prImmediately"
 	],
+	"automerge": true,
+	"platformAutomerge": true,
+	"automergeStrategy": "squash",
 	"labels": [
-		"dependencies"
-	]
+		"renovate"
+	],
+	"assignees": [
+		"obeattie"
+	],
+	"lockFileMaintenance": {
+		"enabled": true,
+		"automerge": true
+	},
+	"prHourlyLimit": 0,
+	"prConcurrentLimit": 0
 }
