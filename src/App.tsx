@@ -37,7 +37,7 @@ export default function App(): ReactElement {
 				<UriState />
 			</MapContainer>
 			<div className='bg:text-white absolute bottom-3 left-3 z-20 rounded bg-white p-3 shadow-md dark:bg-gray-800'>
-				<form className='mb-2 text-sm'>
+				<form className='mb-3 text-sm'>
 					<input
 						className='mr-2 rounded bg-white/10'
 						type='number'
@@ -64,11 +64,21 @@ export default function App(): ReactElement {
 						<option value='ch'>Chains</option>
 						<option value='rd'>Rods</option>
 						<option value='fr'>Furlongs</option>
+						<option value='ls'>Light second</option>
+						<option value='lms'>Light millisecond</option>
 					</select>
 				</form>
-				<p className='text-xs text-gray-400'>
-					Click to place a circle, right click to remove
-				</p>
+				<div className='flex w-full text-xs'>
+					<p className='m-0 grow text-gray-400'>
+						Click to place a circle, right click to remove
+					</p>
+					<a
+						href='https://github.com/obeattie/gmaps-radius'
+						className='text-blue-900'
+					>
+						GitHub
+					</a>
+				</div>
 			</div>
 		</>
 	)
