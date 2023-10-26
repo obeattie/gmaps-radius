@@ -16,7 +16,8 @@ export const EarthRadii = {
 	na: 3443.898_49,
 	ch: 317_053.408,
 	rd: 1_268_213.63,
-	fr: 31_705.3408
+	fr: 31_705.3408,
+	lms: 21.25
 }
 
 export type RadiusUnit = keyof typeof EarthRadii
