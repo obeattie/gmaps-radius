@@ -5,7 +5,17 @@
 		":prHourlyLimitNone",
 		":prImmediately"
 	],
+	"automerge": true,
+	"platformAutomerge": true,
+	"automergeStrategy": "squash",
 	"labels": [
-		"dependencies"
-	]
+		"renovate"
+	],
+	"assignees": [
+		"obeattie"
+	],
+	"lockFileMaintenance": {
+		"enabled": true,
+		"automerge": true
+	}
 }
