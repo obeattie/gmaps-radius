@@ -9,16 +9,16 @@ overrides:
 
 dependencies:
   '@react-hookz/web':
-    specifier: ^23.1.0
+    specifier: 23.1.0
     version: 23.1.0(react-dom@18.2.0)(react@18.2.0)
   '@tanstack/react-query':
     specifier: 4.36.1
     version: 4.36.1(react-dom@18.2.0)(react@18.2.0)
   leaflet:
-    specifier: ^1.9.4
+    specifier: 1.9.4
     version: 1.9.4
   nanoid:
-    specifier: ^5.0.2
+    specifier: 5.0.2
     version: 5.0.2
   react:
     specifier: 18.2.0
@@ -27,7 +27,7 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   react-leaflet:
-    specifier: ^4.2.1
+    specifier: 4.2.1
     version: 4.2.1(leaflet@1.9.4)(react-dom@18.2.0)(react@18.2.0)
   react-router-dom:
     specifier: 6.16.0
@@ -59,7 +59,7 @@ devDependencies:
     specifier: 0.1.2
     version: 0.1.2
   '@types/leaflet':
-    specifier: ^1.9.7
+    specifier: 1.9.7
     version: 1.9.7
   '@types/react':
     specifier: 18.2.28
