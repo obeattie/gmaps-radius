@@ -59,8 +59,8 @@ devDependencies:
     specifier: 0.1.4
     version: 0.1.4
   '@types/leaflet':
-    specifier: 1.9.7
-    version: 1.9.7
+    specifier: 1.9.8
+    version: 1.9.8
   '@types/react':
     specifier: 18.2.36
     version: 18.2.36
@@ -2303,8 +2303,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/leaflet@1.9.7:
-    resolution: {integrity: sha512-FOfKB1ALYUDnXkH7LfTFreWiZr9R7GErqGP+8lYQGWr2GFq5+jy3Ih0M7e9j41cvRN65kLALJ4dc43yZwyl/6g==}
+  /@types/leaflet@1.9.8:
+    resolution: {integrity: sha512-EXdsL4EhoUtGm2GC2ZYtXn+Fzc6pluVgagvo2VC1RHWToLGlTRwVYoDpqS/7QXa01rmDyBjJk3Catpf60VMkwg==}
     dependencies:
       '@types/geojson': 7946.0.12
     dev: true
