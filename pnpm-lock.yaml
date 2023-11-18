@@ -35,8 +35,8 @@ dependencies:
 
 devDependencies:
   '@nabla/vite-plugin-eslint':
-    specifier: 1.6.0
-    version: 1.6.0(eslint@8.54.0)(vite@5.0.0)
+    specifier: 2.0.2
+    version: 2.0.2(eslint@8.54.0)(vite@5.0.0)
   '@tailwindcss/forms':
     specifier: 0.5.7
     version: 0.5.7(tailwindcss@3.3.5)
@@ -1928,11 +1928,11 @@ packages:
       strict-event-emitter: 0.5.1
     dev: true
 
-  /@nabla/vite-plugin-eslint@1.6.0(eslint@8.54.0)(vite@5.0.0):
-    resolution: {integrity: sha512-vxEOV4QtiFNiu9o2jg91sWl1X7dHSosvVYZrYwaDAgDlgTfzmwxca3Nafyq9n42WX45l1l/6HshMMGShsW6Mkg==}
+  /@nabla/vite-plugin-eslint@2.0.2(eslint@8.54.0)(vite@5.0.0):
+    resolution: {integrity: sha512-bwOAkO3kdDyNvGNbIls9bLQHR1t/NKyCd/CSCP89rbmgmxScORq9O84TBc5t1Bh64UWSYmYM5j5HIjwuiVgtGQ==}
     peerDependencies:
       eslint: '*'
-      vite: ^2 || ^3 || ^4 || ^5
+      vite: ^4 || ^5
     dependencies:
       '@types/eslint': 8.44.7
       chalk: 4.1.2
