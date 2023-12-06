@@ -185,8 +185,8 @@ devDependencies:
     specifier: 5.0.6
     version: 5.0.6(@types/node@18.19.2)
   vite-plugin-pwa:
-    specifier: 0.17.3
-    version: 0.17.3(vite@5.0.6)(workbox-build@7.0.0)(workbox-window@7.0.0)
+    specifier: 0.17.4
+    version: 0.17.4(vite@5.0.6)(workbox-build@7.0.0)(workbox-window@7.0.0)
   vite-tsconfig-paths:
     specifier: 4.2.1
     version: 4.2.1(typescript@5.3.2)(vite@5.0.6)
@@ -8445,8 +8445,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-pwa@0.17.3(vite@5.0.6)(workbox-build@7.0.0)(workbox-window@7.0.0):
-    resolution: {integrity: sha512-ilOs0mGxIxKQN3FZYX8pys5DmY/wI9A6oojlY5rrd7mAxCVcSbtjDVAhm62C+3Ww6KQrNr/jmiRUCplC8AsaBw==}
+  /vite-plugin-pwa@0.17.4(vite@5.0.6)(workbox-build@7.0.0)(workbox-window@7.0.0):
+    resolution: {integrity: sha512-j9iiyinFOYyof4Zk3Q+DtmYyDVBDAi6PuMGNGq6uGI0pw7E+LNm9e+nQ2ep9obMP/kjdWwzilqUrlfVRj9OobA==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0 || ^5.0.0
