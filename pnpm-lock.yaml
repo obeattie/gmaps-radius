@@ -149,8 +149,8 @@ devDependencies:
     specifier: 15.2.2
     version: 15.2.2
   msw:
-    specifier: 2.2.4
-    version: 2.2.4(typescript@5.4.2)
+    specifier: 2.2.5
+    version: 2.2.5(typescript@5.4.2)
   npm-run-all2:
     specifier: 6.1.2
     version: 6.1.2
@@ -6489,8 +6489,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.2.4(typescript@5.4.2):
-    resolution: {integrity: sha512-jFRVA8megbf134fZsddsEuZZCe0O0NIaW3NssSya4ZJ7jODRUodKMFjVjphA+ckS9pPhIrE/ehTrgccShAKU2A==}
+  /msw@2.2.5(typescript@5.4.2):
+    resolution: {integrity: sha512-9JTDvKTc7Weu8iF0JQeW3+ispwR12rJyHgqncoTBdQZ4L41Acm09i8CViY2c2ULaVTFhhorDwECR27QiXpPw5g==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
