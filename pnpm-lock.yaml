@@ -134,8 +134,8 @@ devDependencies:
     specifier: 3.3.0
     version: 3.3.0
   eslint-plugin-testing-library:
-    specifier: 6.2.1
-    version: 6.2.1(eslint@8.57.0)(typescript@5.4.5)
+    specifier: 6.2.2
+    version: 6.2.2(eslint@8.57.0)(typescript@5.4.5)
   eslint-plugin-unicorn:
     specifier: 52.0.0
     version: 52.0.0(eslint@8.57.0)
@@ -4492,8 +4492,8 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /eslint-plugin-testing-library@6.2.1(eslint@8.57.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-CP2YV/AxtgyrXgizM4648UkuVrFGDcCA8uDmrLytGqtsa7wgC6MTuIQqEAT1Qm4/zCxnC8xRtiGgfEwEt6hmdw==}
+  /eslint-plugin-testing-library@6.2.2(eslint@8.57.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-1E94YOTUDnOjSLyvOwmbVDzQi/WkKm3WVrMXu6SmBr6DN95xTGZmI6HJ/eOkSXh/DlheRsxaPsJvZByDBhWLVQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0
