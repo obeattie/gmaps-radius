@@ -173,8 +173,8 @@ devDependencies:
     specifier: 9.0.5
     version: 9.0.5(stylelint@15.11.0)
   stylelint-config-standard:
-    specifier: 35.0.0
-    version: 35.0.0(stylelint@15.11.0)
+    specifier: 36.0.0
+    version: 36.0.0(stylelint@15.11.0)
   tailwindcss:
     specifier: 3.4.3
     version: 3.4.3
@@ -8001,11 +8001,11 @@ packages:
       stylelint: 15.11.0(typescript@5.4.5)
     dev: true
 
-  /stylelint-config-standard@35.0.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-JyQrNZk2BZwVKFauGGxW2U6RuhIfQ4XoHHo+rBzMHcAkLnwI/knpszwXjzxiMgSfcxbZBckM7Vq4LHoANTR85g==}
+  /stylelint-config-standard@36.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-3Kjyq4d62bYFp/Aq8PMKDwlgUyPU4nacXsjDLWJdNPRUgpuxALu1KnlAHIj36cdtxViVhXexZij65yM0uNIHug==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
-      stylelint: ^16.0.0
+      stylelint: ^16.1.0
     dependencies:
       stylelint: 15.11.0(typescript@5.4.5)
       stylelint-config-recommended: 14.0.0(stylelint@15.11.0)
