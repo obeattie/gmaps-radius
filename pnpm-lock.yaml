@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  headers-polyfill: 3.1.2
+  headers-polyfill: 3.3.0
 
 dependencies:
   '@react-hookz/web':
@@ -5297,8 +5297,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /headers-polyfill@3.1.2:
-    resolution: {integrity: sha512-tWCK4biJ6hcLqTviLXVR9DTRfYGQMXEIUj3gwJ2rZ5wO/at3XtkI4g8mCvFdUF9l1KMBNCfmNAdnahm1cgavQA==}
+  /headers-polyfill@3.3.0:
+    resolution: {integrity: sha512-5e57etwBpNcDc0b6KCVWEh/Ro063OxPvzVimUdM0/tsYM/T7Hfy3kknIGj78SFTOhNd8AZY41U8mOHoO4LzmIQ==}
     dev: true
 
   /homedir-polyfill@1.0.3:
@@ -6505,7 +6505,7 @@ packages:
       '@types/statuses': 2.0.5
       chalk: 4.1.2
       graphql: 16.8.1
-      headers-polyfill: 3.1.2
+      headers-polyfill: 3.3.0
       is-node-process: 1.2.0
       outvariant: 1.4.2
       path-to-regexp: 6.2.2
