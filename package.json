@@ -23,7 +23,7 @@
 	},
 	"dependencies": {
 		"@react-hookz/web": "24.0.4",
-		"@tanstack/react-query": "5.36.0",
+		"@tanstack/react-query": "5.36.2",
 		"leaflet": "1.9.4",
 		"nanoid": "5.0.7",
 		"react": "18.3.1",
