@@ -69,7 +69,7 @@
 		"eslint-plugin-unicorn": "53.0.0",
 		"husky": "9.0.11",
 		"jsdom": "24.0.0",
-		"lint-staged": "15.2.4",
+		"lint-staged": "15.2.5",
 		"msw": "2.3.0",
 		"npm-run-all2": "6.2.0",
 		"postcss": "8.4.38",
