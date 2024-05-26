@@ -143,8 +143,8 @@ devDependencies:
     specifier: 9.0.11
     version: 9.0.11
   jsdom:
-    specifier: 24.0.0
-    version: 24.0.0
+    specifier: 24.1.0
+    version: 24.1.0
   lint-staged:
     specifier: 15.2.5
     version: 15.2.5
@@ -192,7 +192,7 @@ devDependencies:
     version: 4.3.2(typescript@5.4.5)(vite@5.2.11)
   vitest:
     specifier: 1.6.0
-    version: 1.6.0(@types/node@20.12.12)(jsdom@24.0.0)
+    version: 1.6.0(@types/node@20.12.12)(jsdom@24.1.0)
   whatwg-fetch:
     specifier: 3.6.20
     version: 3.6.20
@@ -2412,7 +2412,7 @@ packages:
       dom-accessibility-api: 0.6.3
       lodash: 4.17.21
       redent: 3.0.0
-      vitest: 1.6.0(@types/node@20.12.12)(jsdom@24.0.0)
+      vitest: 1.6.0(@types/node@20.12.12)(jsdom@24.1.0)
     dev: true
 
   /@testing-library/react@15.0.7(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
@@ -2853,7 +2853,7 @@ packages:
       magicast: 0.3.4
       picocolors: 1.0.1
       test-exclude: 6.0.0
-      vitest: 1.6.0(@types/node@20.12.12)(jsdom@24.0.0)
+      vitest: 1.6.0(@types/node@20.12.12)(jsdom@24.1.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5948,8 +5948,8 @@ packages:
     resolution: {integrity: sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==}
     dev: true
 
-  /jsdom@24.0.0:
-    resolution: {integrity: sha512-UDS2NayCvmXSXVP6mpTj+73JnNQadZlr9N68189xib2tx5Mls7swlTNao26IoHv46BZJFvXygyRtyXd1feAk1A==}
+  /jsdom@24.1.0:
+    resolution: {integrity: sha512-6gpM7pRXCwIOKxX47cgOyvyQDN/Eh0f1MeKySBV2xGdKtqJBLj8P25eY3EVCWo2mglDDzozR2r2MW4T+JiNUZA==}
     engines: {node: '>=18'}
     peerDependencies:
       canvas: ^2.11.2
@@ -5967,7 +5967,7 @@ packages:
       is-potential-custom-element-name: 1.0.1
       nwsapi: 2.2.10
       parse5: 7.1.2
-      rrweb-cssom: 0.6.0
+      rrweb-cssom: 0.7.0
       saxes: 6.0.0
       symbol-tree: 3.2.4
       tough-cookie: 4.1.4
@@ -7597,6 +7597,10 @@ packages:
     resolution: {integrity: sha512-APM0Gt1KoXBz0iIkkdB/kfvGOwC4UuJFeG/c+yV7wSc7q96cG/kJ0HiYCnzivD9SB53cLV1MlHFNfOuPaadYSw==}
     dev: true
 
+  /rrweb-cssom@0.7.0:
+    resolution: {integrity: sha512-KlSv0pm9kgQSRxXEMgtivPJ4h826YHsuob8pSHcfSZsSXGtvpEAie8S0AnXuObEJ7nhikOb4ahwxDm0H2yW17g==}
+    dev: true
+
   /run-async@2.4.1:
     resolution: {integrity: sha512-tvVnVv01b8c1RrA6Ep7JkStj85Guv/YrMcwqYQnwjsAS2cTmmPGBBjAjpCW7RrSodNSoE2/qg9O4bceNvUuDgQ==}
     engines: {node: '>=0.12.0'}
@@ -8735,7 +8739,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.6.0(@types/node@20.12.12)(jsdom@24.0.0):
+  /vitest@1.6.0(@types/node@20.12.12)(jsdom@24.1.0):
     resolution: {integrity: sha512-H5r/dN06swuFnzNFhq/dnz37bPXnq8xB2xB5JOVk8K09rUtoeNN+LHWkoQ0A/i3hvbUKKcCei9KpbxqHMLhLLA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -8770,7 +8774,7 @@ packages:
       chai: 4.4.1
       debug: 4.3.4(supports-color@8.1.1)
       execa: 8.0.1
-      jsdom: 24.0.0
+      jsdom: 24.1.0
       local-pkg: 0.5.0
       magic-string: 0.30.10
       pathe: 1.1.2
