@@ -186,7 +186,7 @@ devDependencies:
     version: 5.2.11(@types/node@20.12.12)
   vite-plugin-pwa:
     specifier: 0.20.0
-    version: 0.20.0(vite@5.2.11)(workbox-build@7.1.0)(workbox-window@7.1.0)
+    version: 0.20.0(vite@5.2.11)(workbox-build@7.1.1)(workbox-window@7.1.0)
   vite-tsconfig-paths:
     specifier: 4.3.2
     version: 4.3.2(typescript@5.4.5)(vite@5.2.11)
@@ -197,8 +197,8 @@ devDependencies:
     specifier: 3.6.20
     version: 3.6.20
   workbox-build:
-    specifier: 7.1.0
-    version: 7.1.0
+    specifier: 7.1.1
+    version: 7.1.1
   workbox-window:
     specifier: 7.1.0
     version: 7.1.0
@@ -8640,7 +8640,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-pwa@0.20.0(vite@5.2.11)(workbox-build@7.1.0)(workbox-window@7.1.0):
+  /vite-plugin-pwa@0.20.0(vite@5.2.11)(workbox-build@7.1.1)(workbox-window@7.1.0):
     resolution: {integrity: sha512-/kDZyqF8KqoXRpMUQtR5Atri/7BWayW8Gp7Kz/4bfstsV6zSFTxjREbXZYL7zSuRL40HGA+o2hvUAFRmC+bL7g==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -8656,7 +8656,7 @@ packages:
       fast-glob: 3.3.2
       pretty-bytes: 6.1.1
       vite: 5.2.11(@types/node@20.12.12)
-      workbox-build: 7.1.0
+      workbox-build: 7.1.1
       workbox-window: 7.1.0
     transitivePeerDependencies:
       - supports-color
@@ -8931,8 +8931,8 @@ packages:
       workbox-core: 7.1.0
     dev: true
 
-  /workbox-build@7.1.0:
-    resolution: {integrity: sha512-F6R94XAxjB2j4ETMkP1EXKfjECOtDmyvt0vz3BzgWJMI68TNSXIVNkgatwUKBlPGOfy9n2F/4voYRNAhEvPJNg==}
+  /workbox-build@7.1.1:
+    resolution: {integrity: sha512-WdkVdC70VMpf5NBCtNbiwdSZeKVuhTEd5PV3mAwpTQCGAB5XbOny1P9egEgNdetv4srAMmMKjvBk4RD58LpooA==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@apideck/better-ajv-errors': 0.3.6(ajv@8.14.0)
