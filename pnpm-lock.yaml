@@ -47,8 +47,8 @@ devDependencies:
     specifier: 10.1.0
     version: 10.1.0
   '@testing-library/jest-dom':
-    specifier: 6.4.5
-    version: 6.4.5(vitest@1.6.0)
+    specifier: 6.4.6
+    version: 6.4.6(vitest@1.6.0)
   '@testing-library/react':
     specifier: 16.0.0
     version: 16.0.0(@testing-library/dom@10.1.0)(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
@@ -2430,8 +2430,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/jest-dom@6.4.5(vitest@1.6.0):
-    resolution: {integrity: sha512-AguB9yvTXmCnySBP1lWjfNNUwpbElsaQ567lt2VdGqAdHtpieLgjmcVyv1q7PMIvLbgpDdkWV5Ydv3FEejyp2A==}
+  /@testing-library/jest-dom@6.4.6(vitest@1.6.0):
+    resolution: {integrity: sha512-8qpnGVincVDLEcQXWaHOf6zmlbwTKc6Us6PPu4CRnPXCzo2OGBS5cwgMMOWdxDpEz1mkbvXHpEy99M5Yvt682w==}
     engines: {node: '>=14', npm: '>=6', yarn: '>=1'}
     peerDependencies:
       '@jest/globals': '>= 28'
@@ -2656,7 +2656,7 @@ packages:
     resolution: {integrity: sha512-bnreXCgus6IIadyHNlN/oI5FfX4dWgvGhOPvpr7zzCYDGAPIfvyIoAozMBINmhmsVuqV0cncejF2y5KC7ScqOg==}
     deprecated: This is a stub types definition. @testing-library/jest-dom provides its own type definitions, so you do not need this installed.
     dependencies:
-      '@testing-library/jest-dom': 6.4.5(vitest@1.6.0)
+      '@testing-library/jest-dom': 6.4.6(vitest@1.6.0)
     transitivePeerDependencies:
       - '@jest/globals'
       - '@types/bun'
