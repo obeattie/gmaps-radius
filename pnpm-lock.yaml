@@ -152,8 +152,8 @@ devDependencies:
     specifier: 2.3.1
     version: 2.3.1(typescript@5.5.3)
   npm-run-all2:
-    specifier: 6.2.1
-    version: 6.2.1
+    specifier: 6.2.2
+    version: 6.2.2
   postcss:
     specifier: 8.4.39
     version: 8.4.39
@@ -6678,8 +6678,8 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /npm-run-all2@6.2.1:
-    resolution: {integrity: sha512-eX4MWsUYOSm1FhPh9LPAWbqq2quny3u8gEEWIY4HHECi10qOyi1dNaJFCyOOv2uP05ZuTPETwS2p1GZk9oLJsw==}
+  /npm-run-all2@6.2.2:
+    resolution: {integrity: sha512-Q+alQAGIW7ZhKcxLt8GcSi3h3ryheD6xnmXahkMRVM5LYmajcUrSITm8h+OPC9RYWMV2GR0Q1ntTUCfxaNoOJw==}
     engines: {node: ^14.18.0 || ^16.13.0 || >=18.0.0, npm: '>= 8'}
     hasBin: true
     dependencies:
