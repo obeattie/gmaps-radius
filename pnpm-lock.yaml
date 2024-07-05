@@ -44,17 +44,17 @@ devDependencies:
     specifier: 10.0.2
     version: 10.0.2(cypress@13.13.0)
   '@testing-library/dom':
-    specifier: 10.3.0
-    version: 10.3.0
+    specifier: 10.3.1
+    version: 10.3.1
   '@testing-library/jest-dom':
     specifier: 6.4.6
     version: 6.4.6(vitest@1.6.0)
   '@testing-library/react':
     specifier: 16.0.0
-    version: 16.0.0(@testing-library/dom@10.3.0)(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
+    version: 16.0.0(@testing-library/dom@10.3.1)(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)
   '@testing-library/user-event':
     specifier: 14.5.2
-    version: 14.5.2(@testing-library/dom@10.3.0)
+    version: 14.5.2(@testing-library/dom@10.3.1)
   '@types/css-mediaquery':
     specifier: 0.1.4
     version: 0.1.4
@@ -2416,12 +2416,12 @@ packages:
       cypress: ^12.0.0 || ^13.0.0
     dependencies:
       '@babel/runtime': 7.24.7
-      '@testing-library/dom': 10.3.0
+      '@testing-library/dom': 10.3.1
       cypress: 13.13.0
     dev: true
 
-  /@testing-library/dom@10.3.0:
-    resolution: {integrity: sha512-pT/TYB2+IyMYkkB6lqpkzD7VFbsR0JBJtflK3cS68sCNWxmOhWwRm1XvVHlseNEorsNcxkYsb4sRDV3aNIpttg==}
+  /@testing-library/dom@10.3.1:
+    resolution: {integrity: sha512-q/WL+vlXMpC0uXDyfsMtc1rmotzLV8Y0gq6q1gfrrDjQeHoeLrqHbxdPvPNAh1i+xuJl7+BezywcXArz7vLqKQ==}
     engines: {node: '>=18'}
     dependencies:
       '@babel/code-frame': 7.24.7
@@ -2466,7 +2466,7 @@ packages:
       vitest: 1.6.0(@types/node@20.14.9)(jsdom@24.1.0)
     dev: true
 
-  /@testing-library/react@16.0.0(@testing-library/dom@10.3.0)(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
+  /@testing-library/react@16.0.0(@testing-library/dom@10.3.1)(@types/react-dom@18.3.0)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1):
     resolution: {integrity: sha512-guuxUKRWQ+FgNX0h0NS0FIq3Q3uLtWVpBzcLOggmfMoUpgBnzBzvLLd4fbm6yS8ydJd94cIfY4yP9qUQjM2KwQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -2482,20 +2482,20 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.24.7
-      '@testing-library/dom': 10.3.0
+      '@testing-library/dom': 10.3.1
       '@types/react': 18.3.3
       '@types/react-dom': 18.3.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: true
 
-  /@testing-library/user-event@14.5.2(@testing-library/dom@10.3.0):
+  /@testing-library/user-event@14.5.2(@testing-library/dom@10.3.1):
     resolution: {integrity: sha512-YAh82Wh4TIrxYLmfGcixwD18oIjyC1pFQC2Y01F2lzV2HTMiYrI0nze0FD0ocB//CKS/7jIUgae+adPqxK5yCQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
     dependencies:
-      '@testing-library/dom': 10.3.0
+      '@testing-library/dom': 10.3.1
     dev: true
 
   /@types/aria-query@5.0.4:
