@@ -42,7 +42,7 @@ devDependencies:
     version: 0.5.7(tailwindcss@3.4.6)
   '@testing-library/cypress':
     specifier: 10.0.2
-    version: 10.0.2(cypress@13.13.0)
+    version: 10.0.2(cypress@13.13.1)
   '@testing-library/dom':
     specifier: 10.3.2
     version: 10.3.2
@@ -95,8 +95,8 @@ devDependencies:
     specifier: 0.1.2
     version: 0.1.2
   cypress:
-    specifier: 13.13.0
-    version: 13.13.0
+    specifier: 13.13.1
+    version: 13.13.1
   cz-conventional-changelog:
     specifier: 3.3.0
     version: 3.3.0(@types/node@20.14.10)(typescript@5.5.3)
@@ -2398,7 +2398,7 @@ packages:
       react: 18.3.1
     dev: false
 
-  /@testing-library/cypress@10.0.2(cypress@13.13.0):
+  /@testing-library/cypress@10.0.2(cypress@13.13.1):
     resolution: {integrity: sha512-dKv95Bre5fDmNb9tOIuWedhGUryxGu1GWYWtXDqUsDPcr9Ekld0fiTb+pcBvSsFpYXAZSpmyEjhoXzLbhh06yQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -2406,7 +2406,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.8
       '@testing-library/dom': 10.3.2
-      cypress: 13.13.0
+      cypress: 13.13.1
     dev: true
 
   /@testing-library/dom@10.3.2:
@@ -3437,6 +3437,7 @@ packages:
   /callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dev: true
 
   /camelcase-css@2.0.1:
@@ -3844,8 +3845,8 @@ packages:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
     dev: true
 
-  /cypress@13.13.0:
-    resolution: {integrity: sha512-ou/MQUDq4tcDJI2FsPaod2FZpex4kpIK43JJlcBgWrX8WX7R/05ZxGTuxedOuZBfxjZxja+fbijZGyxiLP6CFA==}
+  /cypress@13.13.1:
+    resolution: {integrity: sha512-8F9UjL5MDUdgC/S5hr8CGLHbS5gGht5UOV184qc2pFny43fnkoaKxlzH/U6//zmGu/xRTaKimNfjknLT8+UDFg==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     requiresBuild: true
@@ -6849,6 +6850,7 @@ packages:
   /parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dependencies:
       callsites: 3.1.0
     dev: true
@@ -7466,6 +7468,7 @@ packages:
   /resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dev: true
 
   /resolve-from@5.0.0:
