@@ -38,8 +38,8 @@ devDependencies:
     specifier: 2.0.4
     version: 2.0.4(eslint@8.57.0)(vite@5.3.5)
   '@tailwindcss/forms':
-    specifier: 0.5.7
-    version: 0.5.7(tailwindcss@3.4.7)
+    specifier: 0.5.8
+    version: 0.5.8(tailwindcss@3.4.7)
   '@testing-library/cypress':
     specifier: 10.0.2
     version: 10.0.2(cypress@13.13.2)
@@ -2352,10 +2352,10 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /@tailwindcss/forms@0.5.7(tailwindcss@3.4.7):
-    resolution: {integrity: sha512-QE7X69iQI+ZXwldE+rzasvbJiyV/ju1FGHH0Qn2W3FKbuYtqp8LKcy6iSw79fVUT5/Vvf+0XgLCeYVG+UV6hOw==}
+  /@tailwindcss/forms@0.5.8(tailwindcss@3.4.7):
+    resolution: {integrity: sha512-DJs7B7NPD0JH7BVvdHWNviWmunlFhuEkz7FyFxE4japOWYMLl9b1D6+Z9mivJJPWr6AEbmlPqgiFRyLwFB1SgQ==}
     peerDependencies:
-      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20'
     dependencies:
       mini-svg-data-uri: 1.4.4
       tailwindcss: 3.4.7
