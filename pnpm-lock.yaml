@@ -185,8 +185,8 @@ devDependencies:
     specifier: 5.3.5
     version: 5.3.5(@types/node@22.0.0)
   vite-plugin-pwa:
-    specifier: 0.20.1
-    version: 0.20.1(vite@5.3.5)(workbox-build@7.1.1)(workbox-window@7.1.0)
+    specifier: 0.20.2
+    version: 0.20.2(vite@5.3.5)(workbox-build@7.1.1)(workbox-window@7.1.0)
   vite-tsconfig-paths:
     specifier: 4.3.2
     version: 4.3.2(typescript@5.5.4)(vite@5.3.5)
@@ -8660,8 +8660,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-pwa@0.20.1(vite@5.3.5)(workbox-build@7.1.1)(workbox-window@7.1.0):
-    resolution: {integrity: sha512-M6Pk4b18i5ryrhKgiIF8Zud0HGphYiCbEfLsCdlvmwn/CEnS6noVwfIDG/+3V7r6yxpPV/gLiKw+rIlCCiCCoQ==}
+  /vite-plugin-pwa@0.20.2(vite@5.3.5)(workbox-build@7.1.1)(workbox-window@7.1.0):
+    resolution: {integrity: sha512-9wLqHt/NjP7YKj6CCEKS5+Fhffo6tHGrAa+wvoqCG59oZkmpX5lBBl38MVjLaO4ELrLqjdtUhILJDwZu+q/hGQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       '@vite-pwa/assets-generator': ^0.2.4
