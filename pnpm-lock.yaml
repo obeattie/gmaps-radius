@@ -39,7 +39,7 @@ devDependencies:
     version: 2.0.4(eslint@8.57.0)(vite@5.3.5)
   '@tailwindcss/forms':
     specifier: 0.5.8
-    version: 0.5.8(tailwindcss@3.4.7)
+    version: 0.5.8(tailwindcss@3.4.10)
   '@testing-library/cypress':
     specifier: 10.0.2
     version: 10.0.2(cypress@13.13.2)
@@ -176,8 +176,8 @@ devDependencies:
     specifier: 35.0.0
     version: 35.0.0(stylelint@15.11.0)
   tailwindcss:
-    specifier: 3.4.7
-    version: 3.4.7
+    specifier: 3.4.10
+    version: 3.4.10
   typescript:
     specifier: 5.5.4
     version: 5.5.4
@@ -2352,13 +2352,13 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /@tailwindcss/forms@0.5.8(tailwindcss@3.4.7):
+  /@tailwindcss/forms@0.5.8(tailwindcss@3.4.10):
     resolution: {integrity: sha512-DJs7B7NPD0JH7BVvdHWNviWmunlFhuEkz7FyFxE4japOWYMLl9b1D6+Z9mivJJPWr6AEbmlPqgiFRyLwFB1SgQ==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.4.7
+      tailwindcss: 3.4.10
     dev: true
 
   /@tanstack/query-core@5.51.21:
@@ -4846,7 +4846,7 @@ packages:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.7
+      micromatch: 4.0.8
     dev: true
 
   /fast-json-stable-stringify@2.1.0:
@@ -4956,7 +4956,7 @@ packages:
     dependencies:
       detect-file: 1.0.0
       is-glob: 4.0.3
-      micromatch: 4.0.7
+      micromatch: 4.0.8
       resolve-dir: 1.0.1
     dev: true
 
@@ -8186,8 +8186,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss@3.4.7:
-    resolution: {integrity: sha512-rxWZbe87YJb4OcSopb7up2Ba4U82BoiSGUdoDr3Ydrg9ckxFS/YWsvhN323GMcddgU65QRy7JndC7ahhInhvlQ==}
+  /tailwindcss@3.4.10:
+    resolution: {integrity: sha512-KWZkVPm7yJRhdu4SRSl9d4AK2wM3a50UsvgHZO7xY77NQr2V+fIrEuoDGQcbvswWvFGbS2f6e+jC/6WJm1Dl0w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -8201,7 +8201,7 @@ packages:
       is-glob: 4.0.3
       jiti: 1.21.6
       lilconfig: 2.1.0
-      micromatch: 4.0.7
+      micromatch: 4.0.8
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.1
