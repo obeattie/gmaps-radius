@@ -149,8 +149,8 @@ devDependencies:
     specifier: 15.2.10
     version: 15.2.10
   msw:
-    specifier: 2.4.1
-    version: 2.4.1(typescript@5.5.4)
+    specifier: 2.4.2
+    version: 2.4.2(typescript@5.5.4)
   npm-run-all2:
     specifier: 6.2.2
     version: 6.2.2
@@ -6519,14 +6519,14 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.4.1(typescript@5.5.4):
-    resolution: {integrity: sha512-HXcoQPzYTwEmVk+BGIcRa0vLabBT+J20SSSeYh/QfajaK5ceA6dlD4ZZjfz2dqGEq4vRNCPLP6eXsB94KllPFg==}
+  /msw@2.4.2(typescript@5.5.4):
+    resolution: {integrity: sha512-GImSQGhn19czhVpxPdiUDK8CMZ6jbBcvOhzfJd8KFErjEER2wDKWs1UYaetJs2GSNlAqt6heZYm7g3eLatTcog==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
     peerDependencies:
       graphql: '>= 16.8.x'
-      typescript: '>= 4.7.x'
+      typescript: '>= 4.8.x'
     peerDependenciesMeta:
       graphql:
         optional: true
