@@ -82,7 +82,7 @@
 		"tailwindcss": "3.4.10",
 		"typescript": "5.5.4",
 		"vite": "5.4.3",
-		"vite-plugin-pwa": "0.20.4",
+		"vite-plugin-pwa": "0.20.5",
 		"vite-tsconfig-paths": "4.3.2",
 		"vitest": "2.0.5",
 		"whatwg-fetch": "3.6.20",
