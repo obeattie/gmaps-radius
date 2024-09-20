@@ -149,8 +149,8 @@ devDependencies:
     specifier: 15.2.10
     version: 15.2.10
   msw:
-    specifier: 2.4.8
-    version: 2.4.8(typescript@5.6.2)
+    specifier: 2.4.9
+    version: 2.4.9(typescript@5.6.2)
   npm-run-all2:
     specifier: 6.2.3
     version: 6.2.3
@@ -192,7 +192,7 @@ devDependencies:
     version: 5.0.1(typescript@5.6.2)(vite@5.4.6)
   vitest:
     specifier: 2.1.1
-    version: 2.1.1(@types/node@22.5.5)(jsdom@25.0.0)(msw@2.4.8)
+    version: 2.1.1(@types/node@22.5.5)(jsdom@25.0.0)(msw@2.4.9)
   whatwg-fetch:
     specifier: 3.6.20
     version: 3.6.20
@@ -2011,8 +2011,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.0
     dev: true
 
-  /@mswjs/interceptors@0.35.6:
-    resolution: {integrity: sha512-PpD687w7qLxVMK176bpQjbzU9O0VC75QnBK5U1lKd29s4hIuxfTItUD6raNKyQ6BN8b64/8HE34RuYTkwH9uPQ==}
+  /@mswjs/interceptors@0.35.8:
+    resolution: {integrity: sha512-PFfqpHplKa7KMdoQdj5td03uG05VK2Ng1dG0sP4pT9h0dGSX2v9txYt/AnrzPb/vAmfyBBC0NQV7VaBEX+efgQ==}
     engines: {node: '>=18'}
     dependencies:
       '@open-draft/deferred-promise': 2.2.0
@@ -2863,7 +2863,7 @@ packages:
       magicast: 0.3.5
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.1.1(@types/node@22.5.5)(jsdom@25.0.0)(msw@2.4.8)
+      vitest: 2.1.1(@types/node@22.5.5)(jsdom@25.0.0)(msw@2.4.9)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2877,7 +2877,7 @@ packages:
       tinyrainbow: 1.2.0
     dev: true
 
-  /@vitest/mocker@2.1.1(@vitest/spy@2.1.1)(msw@2.4.8)(vite@5.4.6):
+  /@vitest/mocker@2.1.1(@vitest/spy@2.1.1)(msw@2.4.9)(vite@5.4.6):
     resolution: {integrity: sha512-LNN5VwOEdJqCmJ/2XJBywB11DLlkbY0ooDJW3uRX5cZyYCrc4PI/ePX0iQhE3BiEGiQmK4GE7Q/PqCkkaiPnrA==}
     peerDependencies:
       '@vitest/spy': 2.1.1
@@ -2892,7 +2892,7 @@ packages:
       '@vitest/spy': 2.1.1
       estree-walker: 3.0.3
       magic-string: 0.30.11
-      msw: 2.4.8(typescript@5.6.2)
+      msw: 2.4.9(typescript@5.6.2)
       vite: 5.4.6(@types/node@22.5.5)
     dev: true
 
@@ -6506,8 +6506,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.4.8(typescript@5.6.2):
-    resolution: {integrity: sha512-a+FUW1m5yT8cV9GBy0L/cbNg0EA4//SKEzgu3qFrpITrWYeZmqfo7dqtM74T2lAl69jjUjjCaEhZKaxG2Ns8DA==}
+  /msw@2.4.9(typescript@5.6.2):
+    resolution: {integrity: sha512-1m8xccT6ipN4PTqLinPwmzhxQREuxaEJYdx4nIbggxP8aM7r1e71vE7RtOUSQoAm1LydjGfZKy7370XD/tsuYg==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -6521,7 +6521,7 @@ packages:
       '@bundled-es-modules/statuses': 1.0.1
       '@bundled-es-modules/tough-cookie': 0.1.6
       '@inquirer/confirm': 3.2.0
-      '@mswjs/interceptors': 0.35.6
+      '@mswjs/interceptors': 0.35.8
       '@open-draft/until': 2.1.0
       '@types/cookie': 0.6.0
       '@types/statuses': 2.0.5
@@ -8709,7 +8709,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@2.1.1(@types/node@22.5.5)(jsdom@25.0.0)(msw@2.4.8):
+  /vitest@2.1.1(@types/node@22.5.5)(jsdom@25.0.0)(msw@2.4.9):
     resolution: {integrity: sha512-97We7/VC0e9X5zBVkvt7SGQMGrRtn3KtySFQG5fpaMlS+l62eeXRQO633AYhSTC3z7IMebnPPNjGXVGNRFlxBA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -8736,7 +8736,7 @@ packages:
     dependencies:
       '@types/node': 22.5.5
       '@vitest/expect': 2.1.1
-      '@vitest/mocker': 2.1.1(@vitest/spy@2.1.1)(msw@2.4.8)(vite@5.4.6)
+      '@vitest/mocker': 2.1.1(@vitest/spy@2.1.1)(msw@2.4.9)(vite@5.4.6)
       '@vitest/pretty-format': 2.1.1
       '@vitest/runner': 2.1.1
       '@vitest/snapshot': 2.1.1
