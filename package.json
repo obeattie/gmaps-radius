@@ -50,7 +50,7 @@
 		"@vitejs/plugin-react": "4.3.1",
 		"@vitest/coverage-istanbul": "2.1.1",
 		"autoprefixer": "10.4.20",
-		"commitizen": "4.3.0",
+		"commitizen": "4.3.1",
 		"css-mediaquery": "0.1.2",
 		"cypress": "13.15.0",
 		"cz-conventional-changelog": "3.3.0",

@@ -89,8 +89,8 @@ devDependencies:
     specifier: 10.4.20
     version: 10.4.20(postcss@8.4.47)
   commitizen:
-    specifier: 4.3.0
-    version: 4.3.0(@types/node@22.5.5)(typescript@5.6.2)
+    specifier: 4.3.1
+    version: 4.3.1(@types/node@22.5.5)(typescript@5.6.2)
   css-mediaquery:
     specifier: 0.1.2
     version: 0.1.2
@@ -3666,8 +3666,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /commitizen@4.3.0(@types/node@22.5.5)(typescript@5.6.2):
-    resolution: {integrity: sha512-H0iNtClNEhT0fotHvGV3E9tDejDeS04sN1veIebsKYGMuGscFaswRoYJKmT3eW85eIJAs0F28bG2+a/9wCOfPw==}
+  /commitizen@4.3.1(@types/node@22.5.5)(typescript@5.6.2):
+    resolution: {integrity: sha512-gwAPAVTy/j5YcOOebcCRIijn+mSjWJC+IYKivTu6aG8Ei/scoXgfsMRnuAk6b0GRste2J4NGxVdMN3ZpfNaVaw==}
     engines: {node: '>= 12'}
     hasBin: true
     dependencies:
@@ -3883,7 +3883,7 @@ packages:
     engines: {node: '>= 10'}
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.0(@types/node@22.5.5)(typescript@5.6.2)
+      commitizen: 4.3.1(@types/node@22.5.5)(typescript@5.6.2)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
