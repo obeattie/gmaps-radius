@@ -149,8 +149,8 @@ devDependencies:
     specifier: 15.2.10
     version: 15.2.10
   msw:
-    specifier: 2.4.10
-    version: 2.4.10(typescript@5.6.3)
+    specifier: 2.4.11
+    version: 2.4.11(typescript@5.6.3)
   npm-run-all2:
     specifier: 6.2.3
     version: 6.2.3
@@ -192,7 +192,7 @@ devDependencies:
     version: 5.0.1(typescript@5.6.3)(vite@5.4.8)
   vitest:
     specifier: 2.1.2
-    version: 2.1.2(@types/node@22.7.5)(jsdom@25.0.1)(msw@2.4.10)
+    version: 2.1.2(@types/node@22.7.5)(jsdom@25.0.1)(msw@2.4.11)
   whatwg-fetch:
     specifier: 3.6.20
     version: 3.6.20
@@ -2693,7 +2693,7 @@ packages:
       magicast: 0.3.5
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.1.2(@types/node@22.7.5)(jsdom@25.0.1)(msw@2.4.10)
+      vitest: 2.1.2(@types/node@22.7.5)(jsdom@25.0.1)(msw@2.4.11)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2707,7 +2707,7 @@ packages:
       tinyrainbow: 1.2.0
     dev: true
 
-  /@vitest/mocker@2.1.2(@vitest/spy@2.1.2)(msw@2.4.10)(vite@5.4.8):
+  /@vitest/mocker@2.1.2(@vitest/spy@2.1.2)(msw@2.4.11)(vite@5.4.8):
     resolution: {integrity: sha512-ExElkCGMS13JAJy+812fw1aCv2QO/LBK6CyO4WOPAzLTmve50gydOlWhgdBJPx2ztbADUq3JVI0C5U+bShaeEA==}
     peerDependencies:
       '@vitest/spy': 2.1.2
@@ -2722,7 +2722,7 @@ packages:
       '@vitest/spy': 2.1.2
       estree-walker: 3.0.3
       magic-string: 0.30.12
-      msw: 2.4.10(typescript@5.6.3)
+      msw: 2.4.11(typescript@5.6.3)
       vite: 5.4.8(@types/node@22.7.5)
     dev: true
 
@@ -6323,8 +6323,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.4.10(typescript@5.6.3):
-    resolution: {integrity: sha512-bDQh9b25JK4IKMs5hnamwAkcNZ9RwA4mR/4YcgWkzwHOxj7UICbVJfmChJvY1UCAAMraPpvjHdxjoUDpc3F+Qw==}
+  /msw@2.4.11(typescript@5.6.3):
+    resolution: {integrity: sha512-TVEw9NOPTc6ufOQLJ53234S9NBRxQbu7xFMxs+OCP43JQcNEIOKiZHxEm2nDzYIrwccoIhUxUf8wr99SukD76A==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -8546,7 +8546,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@2.1.2(@types/node@22.7.5)(jsdom@25.0.1)(msw@2.4.10):
+  /vitest@2.1.2(@types/node@22.7.5)(jsdom@25.0.1)(msw@2.4.11):
     resolution: {integrity: sha512-veNjLizOMkRrJ6xxb+pvxN6/QAWg95mzcRjtmkepXdN87FNfxAss9RKe2far/G9cQpipfgP2taqg0KiWsquj8A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -8573,7 +8573,7 @@ packages:
     dependencies:
       '@types/node': 22.7.5
       '@vitest/expect': 2.1.2
-      '@vitest/mocker': 2.1.2(@vitest/spy@2.1.2)(msw@2.4.10)(vite@5.4.8)
+      '@vitest/mocker': 2.1.2(@vitest/spy@2.1.2)(msw@2.4.11)(vite@5.4.8)
       '@vitest/pretty-format': 2.1.2
       '@vitest/runner': 2.1.2
       '@vitest/snapshot': 2.1.2
