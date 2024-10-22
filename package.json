@@ -71,7 +71,7 @@
 		"jsdom": "25.0.1",
 		"lint-staged": "15.2.10",
 		"msw": "2.4.13",
-		"npm-run-all2": "6.2.6",
+		"npm-run-all2": "7.0.0",
 		"postcss": "8.4.47",
 		"prettier": "3.3.3",
 		"prettier-plugin-tailwindcss": "0.6.8",
