@@ -86,8 +86,8 @@
 		"vite-tsconfig-paths": "5.0.1",
 		"vitest": "2.1.4",
 		"whatwg-fetch": "3.6.20",
-		"workbox-build": "7.1.1",
-		"workbox-window": "7.1.0"
+		"workbox-build": "7.3.0",
+		"workbox-window": "7.3.0"
 	},
 	"browserslist": {
 		"production": "Edge >= 18, Firefox >= 60, Chrome >= 61, Safari >= 11, Opera >= 48",
