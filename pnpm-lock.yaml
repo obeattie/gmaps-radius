@@ -42,7 +42,7 @@ devDependencies:
     version: 0.5.9(tailwindcss@3.4.14)
   '@testing-library/cypress':
     specifier: 10.0.2
-    version: 10.0.2(cypress@13.15.1)
+    version: 10.0.2(cypress@13.15.2)
   '@testing-library/dom':
     specifier: 10.4.0
     version: 10.4.0
@@ -95,8 +95,8 @@ devDependencies:
     specifier: 0.1.2
     version: 0.1.2
   cypress:
-    specifier: 13.15.1
-    version: 13.15.1
+    specifier: 13.15.2
+    version: 13.15.2
   cz-conventional-changelog:
     specifier: 3.3.0
     version: 3.3.0(@types/node@22.8.7)(typescript@5.6.3)
@@ -2229,7 +2229,7 @@ packages:
       react: 18.3.1
     dev: false
 
-  /@testing-library/cypress@10.0.2(cypress@13.15.1):
+  /@testing-library/cypress@10.0.2(cypress@13.15.2):
     resolution: {integrity: sha512-dKv95Bre5fDmNb9tOIuWedhGUryxGu1GWYWtXDqUsDPcr9Ekld0fiTb+pcBvSsFpYXAZSpmyEjhoXzLbhh06yQ==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -2237,7 +2237,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.26.0
       '@testing-library/dom': 10.4.0
-      cypress: 13.15.1
+      cypress: 13.15.2
     dev: true
 
   /@testing-library/dom@10.4.0:
@@ -3346,11 +3346,6 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /ci-info@3.9.0:
-    resolution: {integrity: sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==}
-    engines: {node: '>=8'}
-    dev: true
-
   /ci-info@4.0.0:
     resolution: {integrity: sha512-TdHqgGf9odd8SXNuxtUBVx8Nv+qZOejE6qyqiy5NtbYYQOeFa6zmHkxlPzmaLxWWHsU6nJmB7AETdVPi+2NBUg==}
     engines: {node: '>=8'}
@@ -3653,8 +3648,8 @@ packages:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
     dev: true
 
-  /cypress@13.15.1:
-    resolution: {integrity: sha512-DwUFiKXo4lef9kA0M4iEhixFqoqp2hw8igr0lTqafRb9qtU3X0XGxKbkSYsUFdkrAkphc7MPDxoNPhk5pj9PVg==}
+  /cypress@13.15.2:
+    resolution: {integrity: sha512-ARbnUorjcCM3XiPwgHKuqsyr5W9Qn+pIIBPaoilnoBkLdSC2oLQjV1BUpnmc7KR+b7Avah3Ly2RMFnfxr96E/A==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     requiresBuild: true
@@ -3670,6 +3665,7 @@ packages:
       cachedir: 2.4.0
       chalk: 4.1.2
       check-more-types: 2.24.0
+      ci-info: 4.0.0
       cli-cursor: 3.1.0
       cli-table3: 0.6.5
       commander: 6.2.1
@@ -3684,7 +3680,6 @@ packages:
       figures: 3.2.0
       fs-extra: 9.1.0
       getos: 3.2.1
-      is-ci: 3.0.1
       is-installed-globally: 0.4.0
       lazy-ass: 1.6.0
       listr2: 3.14.0(enquirer@2.4.1)
@@ -5393,13 +5388,6 @@ packages:
   /is-callable@1.2.7:
     resolution: {integrity: sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==}
     engines: {node: '>= 0.4'}
-    dev: true
-
-  /is-ci@3.0.1:
-    resolution: {integrity: sha512-ZYvCgrefwqoQ6yTyYUbQu64HsITZ3NfKX1lzaEYdkTDcfKzzCI/wthRRYKkdjHKFVgNiXKAKm65Zo1pk2as/QQ==}
-    hasBin: true
-    dependencies:
-      ci-info: 3.9.0
     dev: true
 
   /is-core-module@2.15.1:
