@@ -12,8 +12,8 @@ dependencies:
     specifier: 24.0.4
     version: 24.0.4(react-dom@18.3.1)(react@18.3.1)
   '@tanstack/react-query':
-    specifier: 5.60.2
-    version: 5.60.2(react@18.3.1)
+    specifier: 5.60.4
+    version: 5.60.4(react@18.3.1)
   leaflet:
     specifier: 1.9.4
     version: 1.9.4
@@ -2220,8 +2220,8 @@ packages:
     resolution: {integrity: sha512-e8vw0lf7KwfGe1if4uPFhvZRWULqHjFcz3K8AebtieXvnMOz5FSzlZe3mTLlPuUBcydCnBRqYs2YJ5ys68wwLg==}
     dev: false
 
-  /@tanstack/react-query@5.60.2(react@18.3.1):
-    resolution: {integrity: sha512-JhpJNxIAPuE0YCpP1Py4zAsgx+zY0V531McRMtQbwVlJF8+mlZwcOPrzGmPV248K8IP+mPbsfxXToVNMNwjUcw==}
+  /@tanstack/react-query@5.60.4(react@18.3.1):
+    resolution: {integrity: sha512-zvtD5tenG4PDNtHOs7uJtC6NNPLn3jjRMiWGrccvzj8Lxgl/2CUvTY86G2qGAvwvU2siXueK02GwyS0uRdv0Ww==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
