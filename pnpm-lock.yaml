@@ -137,8 +137,8 @@ devDependencies:
     specifier: 6.4.0
     version: 6.4.0(eslint@8.57.1)(typescript@5.6.3)
   eslint-plugin-unicorn:
-    specifier: 56.0.0
-    version: 56.0.0(eslint@8.57.1)
+    specifier: 56.0.1
+    version: 56.0.1(eslint@8.57.1)
   husky:
     specifier: 9.1.7
     version: 9.1.7
@@ -4376,8 +4376,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-unicorn@56.0.0(eslint@8.57.1):
-    resolution: {integrity: sha512-aXpddVz/PQMmd69uxO98PA4iidiVNvA0xOtbpUoz1WhBd4RxOQQYqN618v68drY0hmy5uU2jy1bheKEVWBjlPw==}
+  /eslint-plugin-unicorn@56.0.1(eslint@8.57.1):
+    resolution: {integrity: sha512-FwVV0Uwf8XPfVnKSGpMg7NtlZh0G0gBarCaFcMUOoqPxXryxdYxTRRv4kH6B9TFCVIrjRXG+emcxIk2ayZilog==}
     engines: {node: '>=18.18'}
     peerDependencies:
       eslint: '>=8.56.0'
