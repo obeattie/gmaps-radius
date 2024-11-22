@@ -30,8 +30,8 @@ dependencies:
     specifier: 4.2.1
     version: 4.2.1(leaflet@1.9.4)(react-dom@18.3.1)(react@18.3.1)
   react-router-dom:
-    specifier: 7.0.0
-    version: 7.0.0(react-dom@18.3.1)(react@18.3.1)
+    specifier: 7.0.1
+    version: 7.0.1(react-dom@18.3.1)(react@18.3.1)
 
 devDependencies:
   '@nabla/vite-plugin-eslint':
@@ -7009,8 +7009,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom@7.0.0(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-2QAxXpwgQuh423C64oZiV2cCKPCNUgZxcvZaS8O0PAHPZ/z8kTq7YbGD4KTNZm6Yj66d+HAfGkWPp8MCpdtD+Q==}
+  /react-router-dom@7.0.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-duBzwAAiIabhFPZfDjcYpJ+f08TMbPMETgq254GWne2NW1ZwRHhZLj7tpSp8KGb7JvZzlLcjGUnqLxpZQVEPng==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -7018,11 +7018,11 @@ packages:
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      react-router: 7.0.0(react-dom@18.3.1)(react@18.3.1)
+      react-router: 7.0.1(react-dom@18.3.1)(react@18.3.1)
     dev: false
 
-  /react-router@7.0.0(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-1xf+yMVhUjAzZGY90ZnYJ9KVe1R8FggpugzRBkh+p6vl4cC1sHDe3nO+r5rxWTAgCMf8uN5hfoV2M7rLVTWPUA==}
+  /react-router@7.0.1(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-WVAhv9oWCNsja5AkK6KLpXJDSJCQizOIyOd4vvB/+eHGbYx5vkhcmcmwWjQ9yqkRClogi+xjEg9fNEOd5EX/tw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
