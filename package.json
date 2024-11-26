@@ -73,7 +73,7 @@
 		"msw": "2.6.6",
 		"npm-run-all2": "7.0.1",
 		"postcss": "8.4.49",
-		"prettier": "3.3.3",
+		"prettier": "3.4.0",
 		"prettier-plugin-tailwindcss": "0.6.9",
 		"start-server-and-test": "2.0.8",
 		"stylelint": "15.11.0",
