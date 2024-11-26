@@ -18,8 +18,8 @@ dependencies:
     specifier: 1.9.4
     version: 1.9.4
   nanoid:
-    specifier: 5.0.8
-    version: 5.0.8
+    specifier: 5.0.9
+    version: 5.0.9
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -6329,8 +6329,8 @@ packages:
     hasBin: true
     dev: true
 
-  /nanoid@5.0.8:
-    resolution: {integrity: sha512-TcJPw+9RV9dibz1hHUzlLVy8N4X9TnwirAjrU08Juo6BNKggzVfP2ZJ/3ZUSq15Xl5i85i+Z89XBO90pB2PghQ==}
+  /nanoid@5.0.9:
+    resolution: {integrity: sha512-Aooyr6MXU6HpvvWXKoVoXwKMs/KyVakWwg7xQfv5/S/RIgJMy0Ifa45H9qqYy7pTCszrHzP21Uk4PZq2HpEM8Q==}
     engines: {node: ^18 || >=20}
     hasBin: true
     dev: false
