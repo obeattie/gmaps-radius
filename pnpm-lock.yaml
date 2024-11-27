@@ -36,7 +36,7 @@ dependencies:
 devDependencies:
   '@nabla/vite-plugin-eslint':
     specifier: 2.0.4
-    version: 2.0.4(eslint@8.57.1)(vite@6.0.0)
+    version: 2.0.4(eslint@8.57.1)(vite@6.0.1)
   '@tailwindcss/forms':
     specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.4.15)
@@ -81,7 +81,7 @@ devDependencies:
     version: 7.18.0(eslint@8.57.1)(typescript@5.7.2)
   '@vitejs/plugin-react':
     specifier: 4.3.4
-    version: 4.3.4(vite@6.0.0)
+    version: 4.3.4(vite@6.0.1)
   '@vitest/coverage-istanbul':
     specifier: 2.1.6
     version: 2.1.6(vitest@2.1.6)
@@ -182,14 +182,14 @@ devDependencies:
     specifier: 5.7.2
     version: 5.7.2
   vite:
-    specifier: 6.0.0
-    version: 6.0.0(@types/node@22.9.3)
+    specifier: 6.0.1
+    version: 6.0.1(@types/node@22.9.3)
   vite-plugin-pwa:
     specifier: 0.21.0
-    version: 0.21.0(vite@6.0.0)(workbox-build@7.3.0)(workbox-window@7.3.0)
+    version: 0.21.0(vite@6.0.1)(workbox-build@7.3.0)(workbox-window@7.3.0)
   vite-tsconfig-paths:
     specifier: 5.1.3
-    version: 5.1.3(typescript@5.7.2)(vite@6.0.0)
+    version: 5.1.3(typescript@5.7.2)(vite@6.0.1)
   vitest:
     specifier: 2.1.6
     version: 2.1.6(@types/node@22.9.3)(jsdom@25.0.1)(msw@2.6.6)
@@ -1862,7 +1862,7 @@ packages:
       strict-event-emitter: 0.5.1
     dev: true
 
-  /@nabla/vite-plugin-eslint@2.0.4(eslint@8.57.1)(vite@6.0.0):
+  /@nabla/vite-plugin-eslint@2.0.4(eslint@8.57.1)(vite@6.0.1):
     resolution: {integrity: sha512-hXLv7XPZLKP54AHLI6JzlCRYptf34rBmT1FyRBi++iN5ucjO7CEf5etV3DfQ2rfTpgMbY+3hoCAfwilA6lyWdw==}
     peerDependencies:
       eslint: ^8.45 || ^9
@@ -1872,7 +1872,7 @@ packages:
       chalk: 4.1.2
       debug: 4.3.7(supports-color@8.1.1)
       eslint: 8.57.1
-      vite: 6.0.0(@types/node@22.9.3)
+      vite: 6.0.1(@types/node@22.9.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2667,7 +2667,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-react@4.3.4(vite@6.0.0):
+  /@vitejs/plugin-react@4.3.4(vite@6.0.1):
     resolution: {integrity: sha512-SCCPBJtYLdE8PX/7ZQAs1QAZ8Jqwih+0VBLum1EGqmCCQal+MIUqLCzj3ZUy8ufbC0cAM4LRlSTm7IQJwWT4ug==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2678,7 +2678,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.0.0(@types/node@22.9.3)
+      vite: 6.0.1(@types/node@22.9.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2712,7 +2712,7 @@ packages:
       tinyrainbow: 1.2.0
     dev: true
 
-  /@vitest/mocker@2.1.6(msw@2.6.6)(vite@6.0.0):
+  /@vitest/mocker@2.1.6(msw@2.6.6)(vite@6.0.1):
     resolution: {integrity: sha512-MHZp2Z+Q/A3am5oD4WSH04f9B0T7UvwEb+v5W0kCYMhtXGYbdyl2NUk1wdSMqGthmhpiThPDp/hEoVwu16+u1A==}
     peerDependencies:
       msw: ^2.4.9
@@ -2727,7 +2727,7 @@ packages:
       estree-walker: 3.0.3
       magic-string: 0.30.13
       msw: 2.6.6(@types/node@22.9.3)(typescript@5.7.2)
-      vite: 6.0.0(@types/node@22.9.3)
+      vite: 6.0.1(@types/node@22.9.3)
     dev: true
 
   /@vitest/pretty-format@2.1.6:
@@ -8414,7 +8414,7 @@ packages:
       debug: 4.3.7(supports-color@8.1.1)
       es-module-lexer: 1.5.4
       pathe: 1.1.2
-      vite: 6.0.0(@types/node@22.9.3)
+      vite: 6.0.1(@types/node@22.9.3)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -8430,7 +8430,7 @@ packages:
       - yaml
     dev: true
 
-  /vite-plugin-pwa@0.21.0(vite@6.0.0)(workbox-build@7.3.0)(workbox-window@7.3.0):
+  /vite-plugin-pwa@0.21.0(vite@6.0.1)(workbox-build@7.3.0)(workbox-window@7.3.0):
     resolution: {integrity: sha512-gnDE5sN2hdxA4vTl0pe6PCTPXqChk175jH8dZVVTBjFhWarZZoXaAdoTIKCIa8Zbx94sC0CnCOyERBWpxvry+g==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -8445,14 +8445,14 @@ packages:
       debug: 4.3.7(supports-color@8.1.1)
       pretty-bytes: 6.1.1
       tinyglobby: 0.2.10
-      vite: 6.0.0(@types/node@22.9.3)
+      vite: 6.0.1(@types/node@22.9.3)
       workbox-build: 7.3.0
       workbox-window: 7.3.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-tsconfig-paths@5.1.3(typescript@5.7.2)(vite@6.0.0):
+  /vite-tsconfig-paths@5.1.3(typescript@5.7.2)(vite@6.0.1):
     resolution: {integrity: sha512-0bz+PDlLpGfP2CigeSKL9NFTF1KtXkeHGZSSaGQSuPZH77GhoiQaA8IjYgOaynSuwlDTolSUEU0ErVvju3NURg==}
     peerDependencies:
       vite: '*'
@@ -8463,14 +8463,14 @@ packages:
       debug: 4.3.7(supports-color@8.1.1)
       globrex: 0.1.2
       tsconfck: 3.1.4(typescript@5.7.2)
-      vite: 6.0.0(@types/node@22.9.3)
+      vite: 6.0.1(@types/node@22.9.3)
     transitivePeerDependencies:
       - supports-color
       - typescript
     dev: true
 
-  /vite@6.0.0(@types/node@22.9.3):
-    resolution: {integrity: sha512-Q2+5yQV79EdnpbNxjD3/QHVMCBaQ3Kpd4/uL51UGuh38bIIM+s4o3FqyCzRvTRwFb+cWIUeZvaWwS9y2LD2qeQ==}
+  /vite@6.0.1(@types/node@22.9.3):
+    resolution: {integrity: sha512-Ldn6gorLGr4mCdFnmeAOLweJxZ34HjKnDm4HGo6P66IEqTxQb36VEdFJQENKxWjupNfoIjvRUnswjn1hpYEpjQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -8544,7 +8544,7 @@ packages:
     dependencies:
       '@types/node': 22.9.3
       '@vitest/expect': 2.1.6
-      '@vitest/mocker': 2.1.6(msw@2.6.6)(vite@6.0.0)
+      '@vitest/mocker': 2.1.6(msw@2.6.6)(vite@6.0.1)
       '@vitest/pretty-format': 2.1.6
       '@vitest/runner': 2.1.6
       '@vitest/snapshot': 2.1.6
@@ -8561,7 +8561,7 @@ packages:
       tinyexec: 0.3.1
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
-      vite: 6.0.0(@types/node@22.9.3)
+      vite: 6.0.1(@types/node@22.9.3)
       vite-node: 2.1.6(@types/node@22.9.3)
       why-is-node-running: 2.3.0
     transitivePeerDependencies:
