@@ -42,7 +42,7 @@
 		"@types/css-mediaquery": "0.1.4",
 		"@types/leaflet": "1.9.15",
 		"@types/react": "19.0.1",
-		"@types/react-dom": "19.0.1",
+		"@types/react-dom": "19.0.2",
 		"@types/react-router-dom": "5.3.3",
 		"@types/testing-library__jest-dom": "6.0.0",
 		"@typescript-eslint/eslint-plugin": "7.18.0",
