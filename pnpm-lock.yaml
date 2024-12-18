@@ -39,7 +39,7 @@ devDependencies:
     version: 2.0.5(eslint@8.57.1)(vite@6.0.3)
   '@tailwindcss/forms':
     specifier: 0.5.9
-    version: 0.5.9(tailwindcss@3.4.16)
+    version: 0.5.9(tailwindcss@3.4.17)
   '@testing-library/cypress':
     specifier: 10.0.2
     version: 10.0.2(cypress@13.16.1)
@@ -176,8 +176,8 @@ devDependencies:
     specifier: 35.0.0
     version: 35.0.0(stylelint@15.11.0)
   tailwindcss:
-    specifier: 3.4.16
-    version: 3.4.16
+    specifier: 3.4.17
+    version: 3.4.17
   typescript:
     specifier: 5.7.2
     version: 5.7.2
@@ -2402,13 +2402,13 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /@tailwindcss/forms@0.5.9(tailwindcss@3.4.16):
+  /@tailwindcss/forms@0.5.9(tailwindcss@3.4.17):
     resolution: {integrity: sha512-tM4XVr2+UVTxXJzey9Twx48c1gcxFStqn1pQz0tRsX8o3DvxhN5oY5pvyAbUx7VTaZxpej4Zzvc6h+1RJBzpIg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.4.16
+      tailwindcss: 3.4.17
     dev: true
 
   /@tanstack/query-core@5.62.8:
@@ -8252,8 +8252,8 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
-  /tailwindcss@3.4.16:
-    resolution: {integrity: sha512-TI4Cyx7gDiZ6r44ewaJmt0o6BrMCT5aK5e0rmJ/G9Xq3w7CX/5VXl/zIPEJZFUK5VEqwByyhqNPycPlvcK4ZNw==}
+  /tailwindcss@3.4.17:
+    resolution: {integrity: sha512-w33E2aCvSDP0tW9RZuNXadXlkHXqFzSkQew/aIa2i/Sj8fThxwovwlXHSPXTbAHwEIhBFXAedUhP2tueAKP8Og==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
