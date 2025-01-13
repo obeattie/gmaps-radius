@@ -131,8 +131,8 @@ devDependencies:
     specifier: 5.1.0
     version: 5.1.0(eslint@8.57.1)
   eslint-plugin-react-prefer-function-component:
-    specifier: 3.3.0
-    version: 3.3.0
+    specifier: 3.4.0
+    version: 3.4.0
   eslint-plugin-testing-library:
     specifier: 7.1.1
     version: 7.1.1(eslint@8.57.1)(typescript@5.7.3)
@@ -4640,8 +4640,8 @@ packages:
       eslint: 8.57.1
     dev: true
 
-  /eslint-plugin-react-prefer-function-component@3.3.0:
-    resolution: {integrity: sha512-BJXHT8gn3tLd9pTrX7v9hozZA79p1s29mEPomg/laOK/1yt6KPFgIYWuxpq4I4C+x88APRVVBVtvW1rdCjeFxQ==}
+  /eslint-plugin-react-prefer-function-component@3.4.0:
+    resolution: {integrity: sha512-M1Up5EANZWG2wxMs4jObTDaH1Onm9hz49ZaJQbQgT7F1mzIo0pnBreu1HELNdlkKF5bKPzZ/g5DaCUd4lYVAnA==}
     dev: true
 
   /eslint-plugin-react@7.37.3(eslint@8.57.1):
