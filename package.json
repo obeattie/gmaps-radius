@@ -52,7 +52,7 @@
 		"autoprefixer": "10.4.20",
 		"commitizen": "4.3.1",
 		"css-mediaquery": "0.1.2",
-		"cypress": "14.0.2",
+		"cypress": "14.0.3",
 		"cz-conventional-changelog": "3.3.0",
 		"eslint": "8.57.1",
 		"eslint-config-airbnb": "19.0.4",
