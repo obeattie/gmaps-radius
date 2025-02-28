@@ -105,7 +105,7 @@ devDependencies:
     version: 8.57.1
   eslint-config-airbnb:
     specifier: 19.0.4
-    version: 19.0.4(eslint-plugin-import@2.31.0)(eslint-plugin-jsx-a11y@6.10.2)(eslint-plugin-react-hooks@5.1.0)(eslint-plugin-react@7.37.4)(eslint@8.57.1)
+    version: 19.0.4(eslint-plugin-import@2.31.0)(eslint-plugin-jsx-a11y@6.10.2)(eslint-plugin-react-hooks@5.2.0)(eslint-plugin-react@7.37.4)(eslint@8.57.1)
   eslint-config-airbnb-base:
     specifier: 15.0.0
     version: 15.0.0(eslint-plugin-import@2.31.0)(eslint@8.57.1)
@@ -128,8 +128,8 @@ devDependencies:
     specifier: 7.37.4
     version: 7.37.4(eslint@8.57.1)
   eslint-plugin-react-hooks:
-    specifier: 5.1.0
-    version: 5.1.0(eslint@8.57.1)
+    specifier: 5.2.0
+    version: 5.2.0(eslint@8.57.1)
   eslint-plugin-react-prefer-function-component:
     specifier: 3.4.0
     version: 3.4.0
@@ -4215,7 +4215,7 @@ packages:
       - eslint-plugin-import
     dev: true
 
-  /eslint-config-airbnb@19.0.4(eslint-plugin-import@2.31.0)(eslint-plugin-jsx-a11y@6.10.2)(eslint-plugin-react-hooks@5.1.0)(eslint-plugin-react@7.37.4)(eslint@8.57.1):
+  /eslint-config-airbnb@19.0.4(eslint-plugin-import@2.31.0)(eslint-plugin-jsx-a11y@6.10.2)(eslint-plugin-react-hooks@5.2.0)(eslint-plugin-react@7.37.4)(eslint@8.57.1):
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -4230,7 +4230,7 @@ packages:
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
       eslint-plugin-react: 7.37.4(eslint@8.57.1)
-      eslint-plugin-react-hooks: 5.1.0(eslint@8.57.1)
+      eslint-plugin-react-hooks: 5.2.0(eslint@8.57.1)
       object.assign: 4.1.7
       object.entries: 1.1.8
     dev: true
@@ -4353,8 +4353,8 @@ packages:
       string.prototype.includes: 2.0.1
     dev: true
 
-  /eslint-plugin-react-hooks@5.1.0(eslint@8.57.1):
-    resolution: {integrity: sha512-mpJRtPgHN2tNAvZ35AMfqeB3Xqeo273QxrHJsbBEPWODRM4r0yB6jfoROqKEYrOn27UtRPpcpHc2UqyBSuUNTw==}
+  /eslint-plugin-react-hooks@5.2.0(eslint@8.57.1):
+    resolution: {integrity: sha512-+f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy/sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
