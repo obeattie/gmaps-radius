@@ -81,7 +81,7 @@
 		"stylelint-config-standard": "35.0.0",
 		"tailwindcss": "4.0.11",
 		"typescript": "5.8.2",
-		"vite": "6.2.0",
+		"vite": "6.2.1",
 		"vite-plugin-pwa": "0.21.1",
 		"vite-tsconfig-paths": "5.1.4",
 		"vitest": "3.0.8",
