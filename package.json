@@ -29,7 +29,7 @@
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
 		"react-leaflet": "5.0.0",
-		"react-router-dom": "7.3.0"
+		"react-router-dom": "7.4.0"
 	},
 	"devDependencies": {
 		"@nabla/vite-plugin-eslint": "2.0.5",
