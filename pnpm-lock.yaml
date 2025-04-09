@@ -9,8 +9,8 @@ overrides:
 
 dependencies:
   '@react-hookz/web':
-    specifier: 25.1.0
-    version: 25.1.0(react-dom@19.1.0)(react@19.1.0)
+    specifier: 25.1.1
+    version: 25.1.1(react-dom@19.1.0)(react@19.1.0)
   '@tanstack/react-query':
     specifier: 5.72.2
     version: 5.72.2(react@19.1.0)
@@ -1962,13 +1962,8 @@ packages:
     dev: true
     optional: true
 
-  /@react-hookz/deep-equal@3.0.4:
-    resolution: {integrity: sha512-QpcSUTP1I0lI8/GvSEvclkoEGRWjbYxuUWaecxr8eJRceivGF18wHoJwaej2NYxMn7SqhKaZ9JYQvmdATiSG8A==}
-    engines: {node: '>=18.0.0'}
-    dev: false
-
-  /@react-hookz/web@25.1.0(react-dom@19.1.0)(react@19.1.0):
-    resolution: {integrity: sha512-+ra/hRG5vPXbwzvQp+YQRn+YlnFNd3eM/lieYW7M/YY2kUjM3ODmD3sZksFQ4P0eVUlqLXe+kSipw8fvLX4mww==}
+  /@react-hookz/web@25.1.1(react-dom@19.1.0)(react@19.1.0):
+    resolution: {integrity: sha512-o1BA+5Z8PCuAnxF7+2TZI+xGBtzyLw8z/flD8AMeJXILYTM8HkI0g41oM7IW/qjUDKx30HKceQQpCKqFGj+iIw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       js-cookie: ^3.0.5
@@ -1978,7 +1973,7 @@ packages:
       js-cookie:
         optional: true
     dependencies:
-      '@react-hookz/deep-equal': 3.0.4
+      '@ver0/deep-equal': 1.0.0
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
     dev: false
@@ -2716,6 +2711,11 @@ packages:
   /@ungap/structured-clone@1.3.0:
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
     dev: true
+
+  /@ver0/deep-equal@1.0.0:
+    resolution: {integrity: sha512-XKIlF1i6UJiyTL52mDrSDDgRX7Qr5yJ7ts9zn2liZEmhiAEum4XKrJRAWmHdFwCQeGBU+rb+/b0ldw/9V8lOWw==}
+    engines: {node: '>=18'}
+    dev: false
 
   /@vitejs/plugin-react@4.3.4(vite@6.2.5):
     resolution: {integrity: sha512-SCCPBJtYLdE8PX/7ZQAs1QAZ8Jqwih+0VBLum1EGqmCCQal+MIUqLCzj3ZUy8ufbC0cAM4LRlSTm7IQJwWT4ug==}
