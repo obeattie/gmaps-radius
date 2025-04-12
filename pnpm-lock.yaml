@@ -146,8 +146,8 @@ devDependencies:
     specifier: 26.0.0
     version: 26.0.0
   lint-staged:
-    specifier: 15.5.0
-    version: 15.5.0
+    specifier: 15.5.1
+    version: 15.5.1
   msw:
     specifier: 2.7.3
     version: 2.7.3(@types/node@22.14.0)(typescript@5.8.3)
@@ -5994,8 +5994,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /lint-staged@15.5.0:
-    resolution: {integrity: sha512-WyCzSbfYGhK7cU+UuDDkzUiytbfbi0ZdPy2orwtM75P3WTtQBzmG40cCxIa8Ii2+XjfxzLH6Be46tUfWS85Xfg==}
+  /lint-staged@15.5.1:
+    resolution: {integrity: sha512-6m7u8mue4Xn6wK6gZvSCQwBvMBR36xfY24nF5bMTf2MHDYG6S3yhJuOgdYVw99hsjyDt2d4z168b3naI8+NWtQ==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
