@@ -143,8 +143,8 @@ devDependencies:
     specifier: 9.1.7
     version: 9.1.7
   jsdom:
-    specifier: 26.0.0
-    version: 26.0.0
+    specifier: 26.1.0
+    version: 26.1.0
   lint-staged:
     specifier: 15.5.1
     version: 15.5.1
@@ -192,7 +192,7 @@ devDependencies:
     version: 5.1.4(typescript@5.8.3)(vite@6.2.6)
   vitest:
     specifier: 3.1.1
-    version: 3.1.1(@types/node@22.14.0)(jsdom@26.0.0)(msw@2.7.4)
+    version: 3.1.1(@types/node@22.14.0)(jsdom@26.1.0)(msw@2.7.4)
   whatwg-fetch:
     specifier: 3.6.20
     version: 3.6.20
@@ -2748,7 +2748,7 @@ packages:
       magicast: 0.3.5
       test-exclude: 7.0.1
       tinyrainbow: 2.0.0
-      vitest: 3.1.1(@types/node@22.14.0)(jsdom@26.0.0)(msw@2.7.4)
+      vitest: 3.1.1(@types/node@22.14.0)(jsdom@26.1.0)(msw@2.7.4)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5803,8 +5803,8 @@ packages:
     resolution: {integrity: sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==}
     dev: true
 
-  /jsdom@26.0.0:
-    resolution: {integrity: sha512-BZYDGVAIriBWTpIxYzrXjv3E/4u8+/pSG5bQdIYCbNCGOvsPkDQfTVLAIXAf9ETdCpduCVTkDe2NNZ8NIwUVzw==}
+  /jsdom@26.1.0:
+    resolution: {integrity: sha512-Cvc9WUhxSMEo4McES3P7oK3QaXldCfNWp7pl2NNeiIFlCoLr3kfq9kb1fxftiwk1FLV7CvpvDfonxtzUDeSOPg==}
     engines: {node: '>=18'}
     peerDependencies:
       canvas: ^3.0.0
@@ -5815,7 +5815,6 @@ packages:
       cssstyle: 4.3.0
       data-urls: 5.0.0
       decimal.js: 10.5.0
-      form-data: 4.0.2
       html-encoding-sniffer: 4.0.0
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -8529,7 +8528,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@3.1.1(@types/node@22.14.0)(jsdom@26.0.0)(msw@2.7.4):
+  /vitest@3.1.1(@types/node@22.14.0)(jsdom@26.1.0)(msw@2.7.4):
     resolution: {integrity: sha512-kiZc/IYmKICeBAZr9DQ5rT7/6bD9G7uqQEki4fxazi1jdVl2mWGzedtBs5s6llz59yQhVb7FFY2MbHzHCnT79Q==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -8568,7 +8567,7 @@ packages:
       chai: 5.2.0
       debug: 4.4.0(supports-color@8.1.1)
       expect-type: 1.2.1
-      jsdom: 26.0.0
+      jsdom: 26.1.0
       magic-string: 0.30.17
       pathe: 2.0.3
       std-env: 3.9.0
