@@ -42,7 +42,7 @@ devDependencies:
     version: 0.5.10(tailwindcss@4.1.5)
   '@testing-library/cypress':
     specifier: 10.0.3
-    version: 10.0.3(cypress@14.3.2)
+    version: 10.0.3(cypress@14.3.3)
   '@testing-library/dom':
     specifier: 10.4.0
     version: 10.4.0
@@ -95,8 +95,8 @@ devDependencies:
     specifier: 0.1.2
     version: 0.1.2
   cypress:
-    specifier: 14.3.2
-    version: 14.3.2
+    specifier: 14.3.3
+    version: 14.3.3
   cz-conventional-changelog:
     specifier: 3.3.0
     version: 3.3.0(@types/node@22.15.3)(typescript@5.8.3)
@@ -1311,13 +1311,6 @@ packages:
       tough-cookie: 4.1.4
     dev: true
 
-  /@colors/colors@1.5.0:
-    resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
-    engines: {node: '>=0.1.90'}
-    requiresBuild: true
-    dev: true
-    optional: true
-
   /@commitlint/config-validator@19.8.0:
     resolution: {integrity: sha512-+r5ZvD/0hQC3w5VOHJhGcCooiAVdynFlCe2d6I9dU+PvXdV3O+fU4vipVg+6hyLbQUuCH82mz3HnT/cBQTYYuA==}
     engines: {node: '>=v18'}
@@ -2284,7 +2277,7 @@ packages:
       react: 19.1.0
     dev: false
 
-  /@testing-library/cypress@10.0.3(cypress@14.3.2):
+  /@testing-library/cypress@10.0.3(cypress@14.3.3):
     resolution: {integrity: sha512-TeZJMCNtiS59cPWalra7LgADuufO5FtbqQBYxuAgdX6ZFAR2D9CtQwAG8VbgvFcchW3K414va/+7P4OkQ80UVg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -2292,7 +2285,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.27.1
       '@testing-library/dom': 10.4.0
-      cypress: 14.3.2
+      cypress: 14.3.3
     dev: true
 
   /@testing-library/dom@10.4.0:
@@ -3409,13 +3402,13 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /cli-table3@0.6.5:
-    resolution: {integrity: sha512-+W/5efTR7y5HRD7gACw9yQjqMVvEMLBHmboM/kPWam+H+Hmyrgjh6YncVKK122YZkXrLudzTuAukUw9FnMf7IQ==}
+  /cli-table3@0.6.1:
+    resolution: {integrity: sha512-w0q/enDHhPLq44ovMGdQeeDLvwxwavsJX7oQGYt/LrBlYsyaxyDnp6z3QzFut/6kLLKnlcUVJLrpB7KBfgG/RA==}
     engines: {node: 10.* || >= 12.*}
     dependencies:
       string-width: 4.2.3
     optionalDependencies:
-      '@colors/colors': 1.5.0
+      colors: 1.4.0
     dev: true
 
   /cli-truncate@2.1.0:
@@ -3486,6 +3479,13 @@ packages:
   /colorette@2.0.20:
     resolution: {integrity: sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==}
     dev: true
+
+  /colors@1.4.0:
+    resolution: {integrity: sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==}
+    engines: {node: '>=0.1.90'}
+    requiresBuild: true
+    dev: true
+    optional: true
 
   /combined-stream@1.0.8:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
@@ -3676,8 +3676,8 @@ packages:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
     dev: true
 
-  /cypress@14.3.2:
-    resolution: {integrity: sha512-n+yGD2ZFFKgy7I3YtVpZ7BcFYrrDMcKj713eOZdtxPttpBjCyw/R8dLlFSsJPouneGN7A/HOSRyPJ5+3/gKDoA==}
+  /cypress@14.3.3:
+    resolution: {integrity: sha512-1Rz7zc9iqLww6BysaESqUhtIuaFHS7nL3wREovAKYsNhLTfX3TbcBWHWgEz70YimH2NkSOsm4oIcJJ9HYHOlew==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     requiresBuild: true
@@ -3695,7 +3695,7 @@ packages:
       check-more-types: 2.24.0
       ci-info: 4.2.0
       cli-cursor: 3.1.0
-      cli-table3: 0.6.5
+      cli-table3: 0.6.1
       commander: 6.2.1
       common-tags: 1.8.2
       dayjs: 1.11.13
