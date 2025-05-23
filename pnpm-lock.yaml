@@ -80,8 +80,8 @@ devDependencies:
     specifier: 7.18.0
     version: 7.18.0(eslint@8.57.1)(typescript@5.8.3)
   '@vitejs/plugin-react':
-    specifier: 4.4.1
-    version: 4.4.1(vite@6.3.5)
+    specifier: 4.5.0
+    version: 4.5.0(vite@6.3.5)
   '@vitest/coverage-istanbul':
     specifier: 3.1.4
     version: 3.1.4(vitest@3.1.4)
@@ -1981,6 +1981,10 @@ packages:
       react-dom: 19.1.0(react@19.1.0)
     dev: false
 
+  /@rolldown/pluginutils@1.0.0-beta.9:
+    resolution: {integrity: sha512-e9MeMtVWo186sgvFFJOPGy7/d2j2mZhLJIdVW0C/xDluuOvymEATqz6zKsP0ZmXGzQtqlyjz5sC1sYQUoJG98w==}
+    dev: true
+
   /@rollup/plugin-babel@5.3.1(@babel/core@7.27.1)(rollup@2.79.2):
     resolution: {integrity: sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==}
     engines: {node: '>= 10.0.0'}
@@ -2709,8 +2713,8 @@ packages:
     engines: {node: '>=18'}
     dev: false
 
-  /@vitejs/plugin-react@4.4.1(vite@6.3.5):
-    resolution: {integrity: sha512-IpEm5ZmeXAP/osiBXVVP5KjFMzbWOonMs0NaQQl+xYnUAcq4oHUBsF2+p4MgKWG4YMmFYJU8A6sxRPuowllm6w==}
+  /@vitejs/plugin-react@4.5.0(vite@6.3.5):
+    resolution: {integrity: sha512-JuLWaEqypaJmOJPLWwO335Ig6jSgC1FTONCWAxnqcQthLTK/Yc9aH6hr9z/87xciejbQcnP3GnA1FWUSWeXaeg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.2.0 || ^5.0.0 || ^6.0.0
@@ -2718,6 +2722,7 @@ packages:
       '@babel/core': 7.27.1
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.1)
       '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.27.1)
+      '@rolldown/pluginutils': 1.0.0-beta.9
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
       vite: 6.3.5(@types/node@22.15.17)
