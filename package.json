@@ -48,7 +48,7 @@
 		"@typescript-eslint/eslint-plugin": "7.18.0",
 		"@typescript-eslint/parser": "7.18.0",
 		"@vitejs/plugin-react": "4.5.2",
-		"@vitest/coverage-istanbul": "3.2.3",
+		"@vitest/coverage-istanbul": "3.2.4",
 		"autoprefixer": "10.4.21",
 		"commitizen": "4.3.1",
 		"css-mediaquery": "0.1.2",
@@ -84,7 +84,7 @@
 		"vite": "6.3.5",
 		"vite-plugin-pwa": "1.0.0",
 		"vite-tsconfig-paths": "5.1.4",
-		"vitest": "3.2.3",
+		"vitest": "3.2.4",
 		"whatwg-fetch": "3.6.20",
 		"workbox-build": "7.3.0",
 		"workbox-window": "7.3.0"
