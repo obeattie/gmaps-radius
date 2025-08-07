@@ -164,8 +164,8 @@ devDependencies:
     specifier: 0.6.14
     version: 0.6.14(prettier@3.6.2)
   start-server-and-test:
-    specifier: 2.0.12
-    version: 2.0.12
+    specifier: 2.0.13
+    version: 2.0.13
   stylelint:
     specifier: 15.11.0
     version: 15.11.0(typescript@5.8.3)
@@ -7685,8 +7685,8 @@ packages:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
     dev: true
 
-  /start-server-and-test@2.0.12:
-    resolution: {integrity: sha512-U6QiS5qsz+DN5RfJJrkAXdooxMDnLZ+n5nR8kaX//ZH19SilF6b58Z3zM9zTfrNIkJepzauHo4RceSgvgUSX9w==}
+  /start-server-and-test@2.0.13:
+    resolution: {integrity: sha512-G42GCIUjBv/nDoK+QsO+nBdX2Cg3DSAKhSic2DN0GLlK4Q+63TkOeN1cV9PHZKnVOzDKGNVZGCREjpvAIAOdiQ==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
@@ -7697,7 +7697,7 @@ packages:
       execa: 5.1.1
       lazy-ass: 1.6.0
       ps-tree: 1.2.0
-      wait-on: 8.0.3(debug@4.4.1)
+      wait-on: 8.0.4(debug@4.4.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8641,8 +8641,8 @@ packages:
       xml-name-validator: 5.0.0
     dev: true
 
-  /wait-on@8.0.3(debug@4.4.1):
-    resolution: {integrity: sha512-nQFqAFzZDeRxsu7S3C7LbuxslHhk+gnJZHyethuGKAn2IVleIbTB9I3vJSQiSR+DifUqmdzfPMoMPJfLqMF2vw==}
+  /wait-on@8.0.4(debug@4.4.1):
+    resolution: {integrity: sha512-8f9LugAGo4PSc0aLbpKVCVtzayd36sSCp4WLpVngkYq6PK87H79zt77/tlCU6eKCLqR46iFvcl0PU5f+DmtkwA==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
