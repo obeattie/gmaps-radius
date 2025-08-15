@@ -79,7 +79,7 @@
 		"stylelint": "15.11.0",
 		"stylelint-config-prettier": "9.0.5",
 		"stylelint-config-standard": "35.0.0",
-		"tailwindcss": "4.1.11",
+		"tailwindcss": "4.1.12",
 		"typescript": "5.9.2",
 		"vite": "7.1.2",
 		"vite-plugin-pwa": "1.0.2",
