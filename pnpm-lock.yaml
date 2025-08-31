@@ -51,7 +51,7 @@ devDependencies:
     version: 6.8.0
   '@testing-library/react':
     specifier: 16.3.0
-    version: 16.3.0(@testing-library/dom@10.4.1)(@types/react-dom@19.1.8)(@types/react@19.1.12)(react-dom@19.1.1)(react@19.1.1)
+    version: 16.3.0(@testing-library/dom@10.4.1)(@types/react-dom@19.1.9)(@types/react@19.1.12)(react-dom@19.1.1)(react@19.1.1)
   '@testing-library/user-event':
     specifier: 14.6.1
     version: 14.6.1(@testing-library/dom@10.4.1)
@@ -65,8 +65,8 @@ devDependencies:
     specifier: 19.1.12
     version: 19.1.12
   '@types/react-dom':
-    specifier: 19.1.8
-    version: 19.1.8(@types/react@19.1.12)
+    specifier: 19.1.9
+    version: 19.1.9(@types/react@19.1.12)
   '@types/react-router-dom':
     specifier: 5.3.3
     version: 5.3.3
@@ -2346,7 +2346,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react@16.3.0(@testing-library/dom@10.4.1)(@types/react-dom@19.1.8)(@types/react@19.1.12)(react-dom@19.1.1)(react@19.1.1):
+  /@testing-library/react@16.3.0(@testing-library/dom@10.4.1)(@types/react-dom@19.1.9)(@types/react@19.1.12)(react-dom@19.1.1)(react@19.1.1):
     resolution: {integrity: sha512-kFSyxiEDwv1WLl2fgsq6pPBbw5aWKrsY2/noi1Id0TK0UParSF62oFQFGHXIyaG4pp2tEub/Zlel+fjjZILDsw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -2364,7 +2364,7 @@ packages:
       '@babel/runtime': 7.28.3
       '@testing-library/dom': 10.4.1
       '@types/react': 19.1.12
-      '@types/react-dom': 19.1.8(@types/react@19.1.12)
+      '@types/react-dom': 19.1.9(@types/react@19.1.12)
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
     dev: true
@@ -2488,8 +2488,8 @@ packages:
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
     dev: true
 
-  /@types/react-dom@19.1.8(@types/react@19.1.12):
-    resolution: {integrity: sha512-xG7xaBMJCpcK0RpN8jDbAACQo54ycO6h4dSSmgv8+fu6ZIAdANkx/WsawASUjVXYfy+J9AbUpRMNNEsXCDfDBQ==}
+  /@types/react-dom@19.1.9(@types/react@19.1.12):
+    resolution: {integrity: sha512-qXRuZaOsAdXKFyOhRBg6Lqqc0yay13vN7KrIg4L7N4aaHN68ma9OK3NE1BoDFgFOTfM7zg+3/8+2n8rLUH3OKQ==}
     peerDependencies:
       '@types/react': ^19.0.0
     dependencies:
