@@ -164,8 +164,8 @@ devDependencies:
     specifier: 0.6.14
     version: 0.6.14(prettier@3.6.2)
   start-server-and-test:
-    specifier: 2.0.13
-    version: 2.0.13
+    specifier: 2.1.0
+    version: 2.1.0
   stylelint:
     specifier: 15.11.0
     version: 15.11.0(typescript@5.9.2)
@@ -7654,8 +7654,8 @@ packages:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
     dev: true
 
-  /start-server-and-test@2.0.13:
-    resolution: {integrity: sha512-G42GCIUjBv/nDoK+QsO+nBdX2Cg3DSAKhSic2DN0GLlK4Q+63TkOeN1cV9PHZKnVOzDKGNVZGCREjpvAIAOdiQ==}
+  /start-server-and-test@2.1.0:
+    resolution: {integrity: sha512-yJg/GR9z7+8qxhZqDPmCEKbU/BO/zpyXUZGLmY1Nv4rmJJDC89NnzIEUWXEG4e1J4MRFoDF50eJK8bGHKrSdlg==}
     engines: {node: '>=16'}
     hasBin: true
     dependencies:
