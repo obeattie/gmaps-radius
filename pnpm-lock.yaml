@@ -146,8 +146,8 @@ devDependencies:
     specifier: 27.0.0
     version: 27.0.0(postcss@8.5.6)
   lint-staged:
-    specifier: 16.2.2
-    version: 16.2.2
+    specifier: 16.2.3
+    version: 16.2.3
   msw:
     specifier: 2.11.3
     version: 2.11.3(@types/node@24.5.2)(typescript@5.9.2)
@@ -6099,8 +6099,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged@16.2.2:
-    resolution: {integrity: sha512-OFKtBWYJXOonKxj2Vv0thpTaaHE31CJD19/X69ks2BkeV38rhTrS/z68+JYXT43MCf4D2uqtpbOY7kxlvSoq5g==}
+  /lint-staged@16.2.3:
+    resolution: {integrity: sha512-1OnJEESB9zZqsp61XHH2fvpS1es3hRCxMplF/AJUDa8Ho8VrscYDIuxGrj3m8KPXbcWZ8fT9XTMUhEQmOVKpKw==}
     engines: {node: '>=20.17'}
     hasBin: true
     dependencies:
