@@ -116,8 +116,8 @@ devDependencies:
     specifier: 10.1.8
     version: 10.1.8(eslint@8.57.1)
   eslint-plugin-cypress:
-    specifier: 5.1.1
-    version: 5.1.1(eslint@8.57.1)
+    specifier: 5.2.0
+    version: 5.2.0(eslint@8.57.1)
   eslint-plugin-import:
     specifier: 2.32.0
     version: 2.32.0(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)
@@ -4426,8 +4426,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-cypress@5.1.1(eslint@8.57.1):
-    resolution: {integrity: sha512-LxTmZf1LLh9EklZBVvKNEZj71X9tCJnlYDviAJGsOgEVc6jz+tBODSpm02CS/9eJOfRqGsmVyvIw7LHXQ13RaA==}
+  /eslint-plugin-cypress@5.2.0(eslint@8.57.1):
+    resolution: {integrity: sha512-vuCUBQloUSILxtJrUWV39vNIQPlbg0L7cTunEAzvaUzv9LFZZym+KFLH18n9j2cZuFPdlxOqTubCvg5se0DyGw==}
     peerDependencies:
       eslint: '>=9'
     dependencies:
