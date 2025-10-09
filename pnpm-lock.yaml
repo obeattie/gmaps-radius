@@ -105,7 +105,7 @@ devDependencies:
     version: 8.57.1
   eslint-config-airbnb:
     specifier: 19.0.4
-    version: 19.0.4(eslint-plugin-import@2.32.0)(eslint-plugin-jsx-a11y@6.10.2)(eslint-plugin-react-hooks@6.1.1)(eslint-plugin-react@7.37.5)(eslint@8.57.1)
+    version: 19.0.4(eslint-plugin-import@2.32.0)(eslint-plugin-jsx-a11y@6.10.2)(eslint-plugin-react-hooks@7.0.0)(eslint-plugin-react@7.37.5)(eslint@8.57.1)
   eslint-config-airbnb-base:
     specifier: 15.0.0
     version: 15.0.0(eslint-plugin-import@2.32.0)(eslint@8.57.1)
@@ -128,8 +128,8 @@ devDependencies:
     specifier: 7.37.5
     version: 7.37.5(eslint@8.57.1)
   eslint-plugin-react-hooks:
-    specifier: 6.1.1
-    version: 6.1.1(eslint@8.57.1)
+    specifier: 7.0.0
+    version: 7.0.0(eslint@8.57.1)
   eslint-plugin-react-prefer-function-component:
     specifier: 4.0.1
     version: 4.0.1
@@ -4336,7 +4336,7 @@ packages:
       - eslint-plugin-import
     dev: true
 
-  /eslint-config-airbnb@19.0.4(eslint-plugin-import@2.32.0)(eslint-plugin-jsx-a11y@6.10.2)(eslint-plugin-react-hooks@6.1.1)(eslint-plugin-react@7.37.5)(eslint@8.57.1):
+  /eslint-config-airbnb@19.0.4(eslint-plugin-import@2.32.0)(eslint-plugin-jsx-a11y@6.10.2)(eslint-plugin-react-hooks@7.0.0)(eslint-plugin-react@7.37.5)(eslint@8.57.1):
     resolution: {integrity: sha512-T75QYQVQX57jiNgpF9r1KegMICE94VYwoFQyMGhrvc+lB8YF2E/M/PYDaQe1AJcWaEgqLE+ErXV1Og/+6Vyzew==}
     engines: {node: ^10.12.0 || ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -4351,7 +4351,7 @@ packages:
       eslint-plugin-import: 2.32.0(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)
       eslint-plugin-jsx-a11y: 6.10.2(eslint@8.57.1)
       eslint-plugin-react: 7.37.5(eslint@8.57.1)
-      eslint-plugin-react-hooks: 6.1.1(eslint@8.57.1)
+      eslint-plugin-react-hooks: 7.0.0(eslint@8.57.1)
       object.assign: 4.1.7
       object.entries: 1.1.9
     dev: true
@@ -4474,8 +4474,8 @@ packages:
       string.prototype.includes: 2.0.1
     dev: true
 
-  /eslint-plugin-react-hooks@6.1.1(eslint@8.57.1):
-    resolution: {integrity: sha512-St9EKZzOAQF704nt2oJvAKZHjhrpg25ClQoaAlHmPZuajFldVLqRDW4VBNAS01NzeiQF0m0qhG1ZA807K6aVaQ==}
+  /eslint-plugin-react-hooks@7.0.0(eslint@8.57.1):
+    resolution: {integrity: sha512-fNXaOwvKwq2+pXiRpXc825Vd63+KM4DLL40Rtlycb8m7fYpp6efrTp1sa6ZbP/Ap58K2bEKFXRmhURE+CJAQWw==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -4483,6 +4483,7 @@ packages:
       '@babel/core': 7.28.4
       '@babel/parser': 7.28.4
       eslint: 8.57.1
+      hermes-parser: 0.25.1
       zod: 4.1.11
       zod-validation-error: 4.0.2(zod@4.1.11)
     transitivePeerDependencies:
@@ -5295,6 +5296,16 @@ packages:
 
   /headers-polyfill@4.0.3:
     resolution: {integrity: sha512-IScLbePpkvO846sIwOtOTDjutRMWdXdJmXdMvk6gCBHxFO8d+QKOQedyZSxFTTFYRSmlgSTDtXqqq4pcenBXLQ==}
+    dev: true
+
+  /hermes-estree@0.25.1:
+    resolution: {integrity: sha512-0wUoCcLp+5Ev5pDW2OriHC2MJCbwLwuRx+gAqMTOkGKJJiBCLjtrvy4PWUGn6MIVefecRpzoOZ/UV6iGdOr+Cw==}
+    dev: true
+
+  /hermes-parser@0.25.1:
+    resolution: {integrity: sha512-6pEjquH3rqaI6cYAXYPcz9MS4rY6R4ngRgrgfDshRptUZIc3lw0MCIJIGDj9++mfySOuPTHB4nrSW99BCvOPIA==}
+    dependencies:
+      hermes-estree: 0.25.1
     dev: true
 
   /homedir-polyfill@1.0.3:
