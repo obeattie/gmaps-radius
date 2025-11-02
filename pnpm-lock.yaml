@@ -9,8 +9,8 @@ overrides:
 
 dependencies:
   '@react-hookz/web':
-    specifier: 25.1.1
-    version: 25.1.1(react-dom@19.2.0)(react@19.2.0)
+    specifier: 25.2.0
+    version: 25.2.0(react-dom@19.2.0)(react@19.2.0)
   '@tanstack/react-query':
     specifier: 5.90.6
     version: 5.90.6(react@19.2.0)
@@ -1993,8 +1993,8 @@ packages:
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
     dev: true
 
-  /@react-hookz/web@25.1.1(react-dom@19.2.0)(react@19.2.0):
-    resolution: {integrity: sha512-o1BA+5Z8PCuAnxF7+2TZI+xGBtzyLw8z/flD8AMeJXILYTM8HkI0g41oM7IW/qjUDKx30HKceQQpCKqFGj+iIw==}
+  /@react-hookz/web@25.2.0(react-dom@19.2.0)(react@19.2.0):
+    resolution: {integrity: sha512-60iU7lGnZOjdkNVpu/8xNEnTPVQQ5ckauIEvsh9S+58v2j/mY1lhgNas+w+9UF8VoUhWC4/cpaxT64EUC6DgsQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       js-cookie: ^3.0.5
