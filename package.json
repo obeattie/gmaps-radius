@@ -70,7 +70,7 @@
 		"husky": "9.1.7",
 		"jsdom": "27.2.0",
 		"lint-staged": "16.2.6",
-		"msw": "2.12.1",
+		"msw": "2.12.2",
 		"npm-run-all2": "8.0.4",
 		"postcss": "8.5.6",
 		"prettier": "3.6.2",
