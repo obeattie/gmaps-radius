@@ -12,8 +12,8 @@ dependencies:
     specifier: 25.2.0
     version: 25.2.0(react-dom@19.2.0)(react@19.2.0)
   '@tanstack/react-query':
-    specifier: 5.90.9
-    version: 5.90.9(react@19.2.0)
+    specifier: 5.90.10
+    version: 5.90.10(react@19.2.0)
   leaflet:
     specifier: 1.9.4
     version: 1.9.4
@@ -2311,16 +2311,16 @@ packages:
       tailwindcss: 4.1.17
     dev: true
 
-  /@tanstack/query-core@5.90.9:
-    resolution: {integrity: sha512-UFOCQzi6pRGeVTVlPNwNdnAvT35zugcIydqjvFUzG62dvz2iVjElmNp/hJkUoM5eqbUPfSU/GJIr/wbvD8bTUw==}
+  /@tanstack/query-core@5.90.10:
+    resolution: {integrity: sha512-EhZVFu9rl7GfRNuJLJ3Y7wtbTnENsvzp+YpcAV7kCYiXni1v8qZh++lpw4ch4rrwC0u/EZRnBHIehzCGzwXDSQ==}
     dev: false
 
-  /@tanstack/react-query@5.90.9(react@19.2.0):
-    resolution: {integrity: sha512-Zke2AaXiaSfnG8jqPZR52m8SsclKT2d9//AgE/QIzyNvbpj/Q2ln+FsZjb1j69bJZUouBvX2tg9PHirkTm8arw==}
+  /@tanstack/react-query@5.90.10(react@19.2.0):
+    resolution: {integrity: sha512-BKLss9Y8PQ9IUjPYQiv3/Zmlx92uxffUOX8ZZNoQlCIZBJPT5M+GOMQj7xislvVQ6l1BstBjcX0XB/aHfFYVNw==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.90.9
+      '@tanstack/query-core': 5.90.10
       react: 19.2.0
     dev: false
 
