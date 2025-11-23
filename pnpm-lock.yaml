@@ -149,8 +149,8 @@ devDependencies:
     specifier: 16.2.7
     version: 16.2.7
   msw:
-    specifier: 2.12.2
-    version: 2.12.2(@types/node@24.10.1)(typescript@5.9.3)
+    specifier: 2.12.3
+    version: 2.12.3(@types/node@24.10.1)(typescript@5.9.3)
   npm-run-all2:
     specifier: 8.0.4
     version: 8.0.4
@@ -192,7 +192,7 @@ devDependencies:
     version: 5.1.4(typescript@5.9.3)(vite@7.2.4)
   vitest:
     specifier: 4.0.13
-    version: 4.0.13(@types/node@24.10.1)(jsdom@27.2.0)(msw@2.12.2)
+    version: 4.0.13(@types/node@24.10.1)(jsdom@27.2.0)(msw@2.12.3)
   whatwg-fetch:
     specifier: 3.6.20
     version: 3.6.20
@@ -2841,7 +2841,7 @@ packages:
       istanbul-reports: 3.2.0
       magicast: 0.5.1
       tinyrainbow: 3.0.3
-      vitest: 4.0.13(@types/node@24.10.1)(jsdom@27.2.0)(msw@2.12.2)
+      vitest: 4.0.13(@types/node@24.10.1)(jsdom@27.2.0)(msw@2.12.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2857,7 +2857,7 @@ packages:
       tinyrainbow: 3.0.3
     dev: true
 
-  /@vitest/mocker@4.0.13(msw@2.12.2)(vite@7.2.4):
+  /@vitest/mocker@4.0.13(msw@2.12.3)(vite@7.2.4):
     resolution: {integrity: sha512-eNCwzrI5djoauklwP1fuslHBjrbR8rqIVbvNlAnkq1OTa6XT+lX68mrtPirNM9TnR69XUPt4puBCx2Wexseylg==}
     peerDependencies:
       msw: ^2.4.9
@@ -2871,7 +2871,7 @@ packages:
       '@vitest/spy': 4.0.13
       estree-walker: 3.0.3
       magic-string: 0.30.21
-      msw: 2.12.2(@types/node@24.10.1)(typescript@5.9.3)
+      msw: 2.12.3(@types/node@24.10.1)(typescript@5.9.3)
       vite: 7.2.4(@types/node@24.10.1)
     dev: true
 
@@ -6430,8 +6430,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.12.2(@types/node@24.10.1)(typescript@5.9.3):
-    resolution: {integrity: sha512-Fsr8AR5Yu6C0thoWa1Z8qGBFQLDvLsWlAn/v3CNLiUizoRqBYArK3Ex3thXpMWRr1Li5/MKLOEZ5mLygUmWi1A==}
+  /msw@2.12.3(@types/node@24.10.1)(typescript@5.9.3):
+    resolution: {integrity: sha512-/5rpGC0eK8LlFqsHaBmL19/PVKxu/CCt8pO1vzp9X6SDLsRDh/Ccudkf3Ur5lyaKxJz9ndAx+LaThdv0ySqB6A==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -6456,7 +6456,7 @@ packages:
       statuses: 2.0.2
       strict-event-emitter: 0.5.1
       tough-cookie: 6.0.0
-      type-fest: 4.41.0
+      type-fest: 5.2.0
       typescript: 5.9.3
       until-async: 3.0.2
       yargs: 17.7.2
@@ -8039,6 +8039,11 @@ packages:
       strip-ansi: 6.0.1
     dev: true
 
+  /tagged-tag@1.0.0:
+    resolution: {integrity: sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==}
+    engines: {node: '>=20'}
+    dev: true
+
   /tailwindcss@4.1.17:
     resolution: {integrity: sha512-j9Ee2YjuQqYT9bbRTfTZht9W/ytp5H+jJpZKiYdP/bpnXARAuELt9ofP0lPnmHjbga7SNQIxdTAXCmtKVYjN+Q==}
     dev: true
@@ -8271,9 +8276,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /type-fest@4.41.0:
-    resolution: {integrity: sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==}
-    engines: {node: '>=16'}
+  /type-fest@5.2.0:
+    resolution: {integrity: sha512-xxCJm+Bckc6kQBknN7i9fnP/xobQRsRQxR01CztFkp/h++yfVxUUcmMgfR2HttJx/dpWjS9ubVuyspJv24Q9DA==}
+    engines: {node: '>=20'}
+    dependencies:
+      tagged-tag: 1.0.0
     dev: true
 
   /typed-array-buffer@1.0.3:
@@ -8523,7 +8530,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@4.0.13(@types/node@24.10.1)(jsdom@27.2.0)(msw@2.12.2):
+  /vitest@4.0.13(@types/node@24.10.1)(jsdom@27.2.0)(msw@2.12.3):
     resolution: {integrity: sha512-QSD4I0fN6uZQfftryIXuqvqgBxTvJ3ZNkF6RWECd82YGAYAfhcppBLFXzXJHQAAhVFyYEuFTrq6h0hQqjB7jIQ==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -8562,7 +8569,7 @@ packages:
     dependencies:
       '@types/node': 24.10.1
       '@vitest/expect': 4.0.13
-      '@vitest/mocker': 4.0.13(msw@2.12.2)(vite@7.2.4)
+      '@vitest/mocker': 4.0.13(msw@2.12.3)(vite@7.2.4)
       '@vitest/pretty-format': 4.0.13
       '@vitest/runner': 4.0.13
       '@vitest/snapshot': 4.0.13
