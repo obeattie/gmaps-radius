@@ -10,10 +10,10 @@ overrides:
 dependencies:
   '@react-hookz/web':
     specifier: 25.2.0
-    version: 25.2.0(react-dom@19.2.3)(react@19.2.3)
+    version: 25.2.0(react-dom@19.2.4)(react@19.2.4)
   '@tanstack/react-query':
     specifier: 5.90.20
-    version: 5.90.20(react@19.2.3)
+    version: 5.90.20(react@19.2.4)
   leaflet:
     specifier: 1.9.4
     version: 1.9.4
@@ -21,17 +21,17 @@ dependencies:
     specifier: 5.1.6
     version: 5.1.6
   react:
-    specifier: 19.2.3
-    version: 19.2.3
+    specifier: 19.2.4
+    version: 19.2.4
   react-dom:
-    specifier: 19.2.3
-    version: 19.2.3(react@19.2.3)
+    specifier: 19.2.4
+    version: 19.2.4(react@19.2.4)
   react-leaflet:
     specifier: 5.0.0
-    version: 5.0.0(leaflet@1.9.4)(react-dom@19.2.3)(react@19.2.3)
+    version: 5.0.0(leaflet@1.9.4)(react-dom@19.2.4)(react@19.2.4)
   react-router-dom:
     specifier: 7.13.0
-    version: 7.13.0(react-dom@19.2.3)(react@19.2.3)
+    version: 7.13.0(react-dom@19.2.4)(react@19.2.4)
 
 devDependencies:
   '@nabla/vite-plugin-eslint':
@@ -51,7 +51,7 @@ devDependencies:
     version: 6.9.1
   '@testing-library/react':
     specifier: 16.3.2
-    version: 16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3)(@types/react@19.2.9)(react-dom@19.2.3)(react@19.2.3)
+    version: 16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3)(@types/react@19.2.9)(react-dom@19.2.4)(react@19.2.4)
   '@testing-library/user-event':
     specifier: 14.6.1
     version: 14.6.1(@testing-library/dom@10.4.1)
@@ -2022,7 +2022,7 @@ packages:
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
     dev: true
 
-  /@react-hookz/web@25.2.0(react-dom@19.2.3)(react@19.2.3):
+  /@react-hookz/web@25.2.0(react-dom@19.2.4)(react@19.2.4):
     resolution: {integrity: sha512-60iU7lGnZOjdkNVpu/8xNEnTPVQQ5ckauIEvsh9S+58v2j/mY1lhgNas+w+9UF8VoUhWC4/cpaxT64EUC6DgsQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -2034,11 +2034,11 @@ packages:
         optional: true
     dependencies:
       '@ver0/deep-equal': 1.0.1
-      react: 19.2.3
-      react-dom: 19.2.3(react@19.2.3)
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
     dev: false
 
-  /@react-leaflet/core@3.0.0(leaflet@1.9.4)(react-dom@19.2.3)(react@19.2.3):
+  /@react-leaflet/core@3.0.0(leaflet@1.9.4)(react-dom@19.2.4)(react@19.2.4):
     resolution: {integrity: sha512-3EWmekh4Nz+pGcr+xjf0KNyYfC3U2JjnkWsh0zcqaexYqmmB5ZhH37kz41JXGmKzpaMZCnPofBBm64i+YrEvGQ==}
     peerDependencies:
       leaflet: ^1.9.0
@@ -2046,8 +2046,8 @@ packages:
       react-dom: ^19.0.0
     dependencies:
       leaflet: 1.9.4
-      react: 19.2.3
-      react-dom: 19.2.3(react@19.2.3)
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
     dev: false
 
   /@rolldown/pluginutils@1.0.0-beta.27:
@@ -2372,13 +2372,13 @@ packages:
     resolution: {integrity: sha512-OMD2HLpNouXEfZJWcKeVKUgQ5n+n3A2JFmBaScpNDUqSrQSjiveC7dKMe53uJUg1nDG16ttFPz2xfilz6i2uVg==}
     dev: false
 
-  /@tanstack/react-query@5.90.20(react@19.2.3):
+  /@tanstack/react-query@5.90.20(react@19.2.4):
     resolution: {integrity: sha512-vXBxa+qeyveVO7OA0jX1z+DeyCA4JKnThKv411jd5SORpBKgkcVnYKCiBgECvADvniBX7tobwBmg01qq9JmMJw==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
       '@tanstack/query-core': 5.90.20
-      react: 19.2.3
+      react: 19.2.4
     dev: false
 
   /@testing-library/cypress@10.1.0(cypress@15.9.0):
@@ -2418,7 +2418,7 @@ packages:
       redent: 3.0.0
     dev: true
 
-  /@testing-library/react@16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3)(@types/react@19.2.9)(react-dom@19.2.3)(react@19.2.3):
+  /@testing-library/react@16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3)(@types/react@19.2.9)(react-dom@19.2.4)(react@19.2.4):
     resolution: {integrity: sha512-XU5/SytQM+ykqMnAnvB2umaJNIOsLF3PVv//1Ew4CTcpz0/BRyy/af40qqrt7SjKpDdT1saBMc42CUok5gaw+g==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -2437,8 +2437,8 @@ packages:
       '@testing-library/dom': 10.4.1
       '@types/react': 19.2.9
       '@types/react-dom': 19.2.3(@types/react@19.2.9)
-      react: 19.2.3
-      react-dom: 19.2.3(react@19.2.3)
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
     dev: true
 
   /@testing-library/user-event@14.6.1(@testing-library/dom@10.4.1):
@@ -7051,12 +7051,12 @@ packages:
       safe-buffer: 5.2.1
     dev: true
 
-  /react-dom@19.2.3(react@19.2.3):
-    resolution: {integrity: sha512-yELu4WmLPw5Mr/lmeEpox5rw3RETacE++JgHqQzd2dg+YbJuat3jH4ingc+WPZhxaoFzdv9y33G+F7Nl5O0GBg==}
+  /react-dom@19.2.4(react@19.2.4):
+    resolution: {integrity: sha512-AXJdLo8kgMbimY95O2aKQqsz2iWi9jMgKJhRBAxECE4IFxfcazB2LmzloIoibJI3C12IlY20+KFaLv+71bUJeQ==}
     peerDependencies:
-      react: ^19.2.3
+      react: ^19.2.4
     dependencies:
-      react: 19.2.3
+      react: 19.2.4
       scheduler: 0.27.0
 
   /react-is@16.13.1:
@@ -7067,17 +7067,17 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: true
 
-  /react-leaflet@5.0.0(leaflet@1.9.4)(react-dom@19.2.3)(react@19.2.3):
+  /react-leaflet@5.0.0(leaflet@1.9.4)(react-dom@19.2.4)(react@19.2.4):
     resolution: {integrity: sha512-CWbTpr5vcHw5bt9i4zSlPEVQdTVcML390TjeDG0cK59z1ylexpqC6M1PJFjV8jD7CF+ACBFsLIDs6DRMoLEofw==}
     peerDependencies:
       leaflet: ^1.9.0
       react: ^19.0.0
       react-dom: ^19.0.0
     dependencies:
-      '@react-leaflet/core': 3.0.0(leaflet@1.9.4)(react-dom@19.2.3)(react@19.2.3)
+      '@react-leaflet/core': 3.0.0(leaflet@1.9.4)(react-dom@19.2.4)(react@19.2.4)
       leaflet: 1.9.4
-      react: 19.2.3
-      react-dom: 19.2.3(react@19.2.3)
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
     dev: false
 
   /react-refresh@0.17.0:
@@ -7085,19 +7085,19 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom@7.13.0(react-dom@19.2.3)(react@19.2.3):
+  /react-router-dom@7.13.0(react-dom@19.2.4)(react@19.2.4):
     resolution: {integrity: sha512-5CO/l5Yahi2SKC6rGZ+HDEjpjkGaG/ncEP7eWFTvFxbHP8yeeI0PxTDjimtpXYlR3b3i9/WIL4VJttPrESIf2g==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      react: 19.2.3
-      react-dom: 19.2.3(react@19.2.3)
-      react-router: 7.13.0(react-dom@19.2.3)(react@19.2.3)
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
+      react-router: 7.13.0(react-dom@19.2.4)(react@19.2.4)
     dev: false
 
-  /react-router@7.13.0(react-dom@19.2.3)(react@19.2.3):
+  /react-router@7.13.0(react-dom@19.2.4)(react@19.2.4):
     resolution: {integrity: sha512-PZgus8ETambRT17BUm/LL8lX3Of+oiLaPuVTRH3l1eLvSPpKO3AvhAEb5N7ihAFZQrYDqkvvWfFh9p0z9VsjLw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
@@ -7108,13 +7108,13 @@ packages:
         optional: true
     dependencies:
       cookie: 1.1.1
-      react: 19.2.3
-      react-dom: 19.2.3(react@19.2.3)
+      react: 19.2.4
+      react-dom: 19.2.4(react@19.2.4)
       set-cookie-parser: 2.7.2
     dev: false
 
-  /react@19.2.3:
-    resolution: {integrity: sha512-Ku/hhYbVjOQnXDZFv2+RibmLFGwFdeeKHFcOTlrt7xplBnya5OGn/hIRDsqDiSUcfORsDC7MPxwork8jBwsIWA==}
+  /react@19.2.4:
+    resolution: {integrity: sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==}
     engines: {node: '>=0.10.0'}
 
   /read-package-json-fast@4.0.0:
