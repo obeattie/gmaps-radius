@@ -149,8 +149,8 @@ devDependencies:
     specifier: 16.2.7
     version: 16.2.7
   msw:
-    specifier: 2.12.7
-    version: 2.12.7(@types/node@25.2.0)(typescript@5.9.3)
+    specifier: 2.12.8
+    version: 2.12.8(@types/node@25.2.0)(typescript@5.9.3)
   npm-run-all2:
     specifier: 8.0.4
     version: 8.0.4
@@ -192,7 +192,7 @@ devDependencies:
     version: 6.0.5(typescript@5.9.3)(vite@7.3.1)
   vitest:
     specifier: 4.0.18
-    version: 4.0.18(@types/node@25.2.0)(jsdom@28.0.0)(msw@2.12.7)
+    version: 4.0.18(@types/node@25.2.0)(jsdom@28.0.0)(msw@2.12.8)
   whatwg-fetch:
     specifier: 3.6.20
     version: 3.6.20
@@ -1958,8 +1958,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.5
     dev: true
 
-  /@mswjs/interceptors@0.40.0:
-    resolution: {integrity: sha512-EFd6cVbHsgLa6wa4RljGj6Wk75qoHxUSyc5asLyyPSyuhIcdS2Q3Phw6ImS1q+CkALthJRShiYfKANcQMuMqsQ==}
+  /@mswjs/interceptors@0.41.0:
+    resolution: {integrity: sha512-edAo9bW53BLYeSK+UPRr2Iz1Fj9DeGMjytvVM0HXRoo750ElWUgPsZPAOTQa12EUiwgDErH2PsFNTLvk1jBxjQ==}
     engines: {node: '>=18'}
     dependencies:
       '@open-draft/deferred-promise': 2.2.0
@@ -2865,7 +2865,7 @@ packages:
       magicast: 0.5.1
       obug: 2.1.1
       tinyrainbow: 3.0.3
-      vitest: 4.0.18(@types/node@25.2.0)(jsdom@28.0.0)(msw@2.12.7)
+      vitest: 4.0.18(@types/node@25.2.0)(jsdom@28.0.0)(msw@2.12.8)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2881,7 +2881,7 @@ packages:
       tinyrainbow: 3.0.3
     dev: true
 
-  /@vitest/mocker@4.0.18(msw@2.12.7)(vite@7.3.1):
+  /@vitest/mocker@4.0.18(msw@2.12.8)(vite@7.3.1):
     resolution: {integrity: sha512-HhVd0MDnzzsgevnOWCBj5Otnzobjy5wLBe4EdeeFGv8luMsGcYqDuFRMcttKWZA5vVO8RFjexVovXvAM4JoJDQ==}
     peerDependencies:
       msw: ^2.4.9
@@ -2895,7 +2895,7 @@ packages:
       '@vitest/spy': 4.0.18
       estree-walker: 3.0.3
       magic-string: 0.30.21
-      msw: 2.12.7(@types/node@25.2.0)(typescript@5.9.3)
+      msw: 2.12.8(@types/node@25.2.0)(typescript@5.9.3)
       vite: 7.3.1(@types/node@25.2.0)
     dev: true
 
@@ -6448,8 +6448,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.12.7(@types/node@25.2.0)(typescript@5.9.3):
-    resolution: {integrity: sha512-retd5i3xCZDVWMYjHEVuKTmhqY8lSsxujjVrZiGbbdoxxIBg5S7rCuYy/YQpfrTYIxpd/o0Kyb/3H+1udBMoYg==}
+  /msw@2.12.8(@types/node@25.2.0)(typescript@5.9.3):
+    resolution: {integrity: sha512-KOriJUhjefCO+liF7Ie1KlSXcBAQEzuLhPZ4EKuEUSEmAR4YhuuzT9YuGxTipjqDrg6eWQ6oMoGVhvEnqukFGg==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -6460,7 +6460,7 @@ packages:
         optional: true
     dependencies:
       '@inquirer/confirm': 5.1.21(@types/node@25.2.0)
-      '@mswjs/interceptors': 0.40.0
+      '@mswjs/interceptors': 0.41.0
       '@open-draft/deferred-promise': 2.2.0
       '@types/statuses': 2.0.6
       cookie: 1.1.1
@@ -6470,7 +6470,7 @@ packages:
       outvariant: 1.4.3
       path-to-regexp: 6.3.0
       picocolors: 1.1.1
-      rettime: 0.7.0
+      rettime: 0.10.1
       statuses: 2.0.2
       strict-event-emitter: 0.5.1
       tough-cookie: 6.0.0
@@ -7332,8 +7332,8 @@ packages:
       signal-exit: 4.1.0
     dev: true
 
-  /rettime@0.7.0:
-    resolution: {integrity: sha512-LPRKoHnLKd/r3dVxcwO7vhCW+orkOGj9ViueosEBK6ie89CijnfRlhaDhHq/3Hxu4CkWQtxwlBG0mzTQY6uQjw==}
+  /rettime@0.10.1:
+    resolution: {integrity: sha512-uyDrIlUEH37cinabq0AX4QbgV4HbFZ/gqoiunWQ1UqBtRvTTytwhNYjE++pO/MjPTZL5KQCf2bEoJ/BJNVQ5Kw==}
     dev: true
 
   /reusify@1.1.0:
@@ -8553,7 +8553,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@4.0.18(@types/node@25.2.0)(jsdom@28.0.0)(msw@2.12.7):
+  /vitest@4.0.18(@types/node@25.2.0)(jsdom@28.0.0)(msw@2.12.8):
     resolution: {integrity: sha512-hOQuK7h0FGKgBAas7v0mSAsnvrIgAvWmRFjmzpJ7SwFHH3g1k2u37JtYwOwmEKhK6ZO3v9ggDBBm0La1LCK4uQ==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -8589,7 +8589,7 @@ packages:
     dependencies:
       '@types/node': 25.2.0
       '@vitest/expect': 4.0.18
-      '@vitest/mocker': 4.0.18(msw@2.12.7)(vite@7.3.1)
+      '@vitest/mocker': 4.0.18(msw@2.12.8)(vite@7.3.1)
       '@vitest/pretty-format': 4.0.18
       '@vitest/runner': 4.0.18
       '@vitest/snapshot': 4.0.18
