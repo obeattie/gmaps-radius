@@ -143,8 +143,8 @@ devDependencies:
     specifier: 9.1.7
     version: 9.1.7
   jsdom:
-    specifier: 28.0.0
-    version: 28.0.0
+    specifier: 28.1.0
+    version: 28.1.0
   lint-staged:
     specifier: 16.2.7
     version: 16.2.7
@@ -192,7 +192,7 @@ devDependencies:
     version: 6.1.1(typescript@5.9.3)(vite@7.3.1)
   vitest:
     specifier: 4.0.18
-    version: 4.0.18(@types/node@25.2.2)(jsdom@28.0.0)(msw@2.12.10)
+    version: 4.0.18(@types/node@25.2.2)(jsdom@28.1.0)(msw@2.12.10)
   whatwg-fetch:
     specifier: 3.6.20
     version: 3.6.20
@@ -235,14 +235,14 @@ packages:
       lru-cache: 11.2.5
     dev: true
 
-  /@asamuzakjp/dom-selector@6.7.8:
-    resolution: {integrity: sha512-stisC1nULNc9oH5lakAj8MH88ZxeGxzyWNDfbdCxvJSJIvDsHNZqYvscGTgy/ysgXWLJPt6K/4t0/GjvtKcFJQ==}
+  /@asamuzakjp/dom-selector@6.8.1:
+    resolution: {integrity: sha512-MvRz1nCqW0fsy8Qz4dnLIvhOlMzqDVBabZx6lH+YywFDdjXhMY37SmpV1XFX3JzG5GWHn63j6HX6QPr3lZXHvQ==}
     dependencies:
       '@asamuzakjp/nwsapi': 2.3.9
       bidi-js: 1.0.3
       css-tree: 3.1.0
       is-potential-custom-element-name: 1.0.1
-      lru-cache: 11.2.5
+      lru-cache: 11.2.6
     dev: true
 
   /@asamuzakjp/nwsapi@2.3.9:
@@ -1326,6 +1326,13 @@ packages:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
+    dev: true
+
+  /@bramus/specificity@2.4.2:
+    resolution: {integrity: sha512-ctxtJ/eA+t+6q2++vj5j7FYX3nRu311q1wfYH3xjlLOsczhlhxAg2FWNUXhpGvAw3BWo1xBcvOV6/YLc2r5FJw==}
+    hasBin: true
+    dependencies:
+      css-tree: 3.1.0
     dev: true
 
   /@commitlint/config-validator@20.4.0:
@@ -2858,7 +2865,7 @@ packages:
       magicast: 0.5.2
       obug: 2.1.1
       tinyrainbow: 3.0.3
-      vitest: 4.0.18(@types/node@25.2.2)(jsdom@28.0.0)(msw@2.12.10)
+      vitest: 4.0.18(@types/node@25.2.2)(jsdom@28.1.0)(msw@2.12.10)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3778,8 +3785,8 @@ packages:
     hasBin: true
     dev: true
 
-  /cssstyle@5.3.7:
-    resolution: {integrity: sha512-7D2EPVltRrsTkhpQmksIu+LxeWAIEk6wRDMJ1qljlv+CKHJM+cJLlfhWIzNA44eAsHXSNe3+vO6DW1yCYx8SuQ==}
+  /cssstyle@6.0.1:
+    resolution: {integrity: sha512-IoJs7La+oFp/AB033wBStxNOJt4+9hHMxsXUPANcoXL2b3W4DZKghlJ2cI/eyeRZIQ9ysvYEorVhjrcYctWbog==}
     engines: {node: '>=20'}
     dependencies:
       '@asamuzakjp/css-color': 4.1.2
@@ -5904,8 +5911,8 @@ packages:
     resolution: {integrity: sha512-UVU9dibq2JcFWxQPA6KCqj5O42VOmAY3zQUfEKxU0KpTGXwNoCjkX1e13eHNvw/xPynt6pU0rZ1htjWTNTSXsg==}
     dev: true
 
-  /jsdom@28.0.0:
-    resolution: {integrity: sha512-KDYJgZ6T2TKdU8yBfYueq5EPG/EylMsBvCaenWMJb2OXmjgczzwveRCoJ+Hgj1lXPDyasvrgneSn4GBuR1hYyA==}
+  /jsdom@28.1.0:
+    resolution: {integrity: sha512-0+MoQNYyr2rBHqO1xilltfDjV9G7ymYGlAUazgcDLQaUf8JDHbuGwsxN6U9qWaElZ4w1B2r7yEGIL3GdeW3Rug==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
       canvas: ^3.0.0
@@ -5914,9 +5921,10 @@ packages:
         optional: true
     dependencies:
       '@acemir/cssom': 0.9.31
-      '@asamuzakjp/dom-selector': 6.7.8
+      '@asamuzakjp/dom-selector': 6.8.1
+      '@bramus/specificity': 2.4.2
       '@exodus/bytes': 1.12.0
-      cssstyle: 5.3.7
+      cssstyle: 6.0.1
       data-urls: 7.0.0
       decimal.js: 10.6.0
       html-encoding-sniffer: 6.0.0
@@ -6223,6 +6231,11 @@ packages:
 
   /lru-cache@11.2.5:
     resolution: {integrity: sha512-vFrFJkWtJvJnD5hg+hJvVE8Lh/TcMzKnTgCWmtBipwI5yLX/iX+5UB2tfuyODF5E7k9xEzMdYgGqaSb1c0c5Yw==}
+    engines: {node: 20 || >=22}
+    dev: true
+
+  /lru-cache@11.2.6:
+    resolution: {integrity: sha512-ESL2CrkS/2wTPfuend7Zhkzo2u0daGJ/A2VucJOgQ/C48S/zB8MMeMHSGKYpXhIjbPxfuezITkaBH1wqv00DDQ==}
     engines: {node: 20 || >=22}
     dev: true
 
@@ -8534,7 +8547,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@4.0.18(@types/node@25.2.2)(jsdom@28.0.0)(msw@2.12.10):
+  /vitest@4.0.18(@types/node@25.2.2)(jsdom@28.1.0)(msw@2.12.10):
     resolution: {integrity: sha512-hOQuK7h0FGKgBAas7v0mSAsnvrIgAvWmRFjmzpJ7SwFHH3g1k2u37JtYwOwmEKhK6ZO3v9ggDBBm0La1LCK4uQ==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -8578,7 +8591,7 @@ packages:
       '@vitest/utils': 4.0.18
       es-module-lexer: 1.7.0
       expect-type: 1.3.0
-      jsdom: 28.0.0
+      jsdom: 28.1.0
       magic-string: 0.30.21
       obug: 2.1.1
       pathe: 2.0.3
