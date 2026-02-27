@@ -32,7 +32,7 @@
 		"react-router-dom": "7.13.1"
 	},
 	"devDependencies": {
-		"@nabla/vite-plugin-eslint": "2.0.6",
+		"@nabla/vite-plugin-eslint": "3.0.0",
 		"@tailwindcss/forms": "0.5.11",
 		"@testing-library/cypress": "10.1.0",
 		"@testing-library/dom": "10.4.1",
