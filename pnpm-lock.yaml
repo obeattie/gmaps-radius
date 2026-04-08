@@ -149,8 +149,8 @@ devDependencies:
     specifier: 16.4.0
     version: 16.4.0
   msw:
-    specifier: 2.13.1
-    version: 2.13.1(@types/node@25.5.2)(typescript@5.9.3)
+    specifier: 2.13.2
+    version: 2.13.2(@types/node@25.5.2)(typescript@5.9.3)
   npm-run-all2:
     specifier: 8.0.4
     version: 8.0.4
@@ -192,7 +192,7 @@ devDependencies:
     version: 6.1.1(typescript@5.9.3)(vite@7.3.2)
   vitest:
     specifier: 4.1.3
-    version: 4.1.3(@types/node@25.5.2)(@vitest/coverage-istanbul@4.1.3)(jsdom@29.0.2)(msw@2.13.1)(vite@7.3.2)
+    version: 4.1.3(@types/node@25.5.2)(@vitest/coverage-istanbul@4.1.3)(jsdom@29.0.2)(msw@2.13.2)(vite@7.3.2)
   whatwg-fetch:
     specifier: 3.6.20
     version: 3.6.20
@@ -2870,7 +2870,7 @@ packages:
       magicast: 0.5.2
       obug: 2.1.1
       tinyrainbow: 3.1.0
-      vitest: 4.1.3(@types/node@25.5.2)(@vitest/coverage-istanbul@4.1.3)(jsdom@29.0.2)(msw@2.13.1)(vite@7.3.2)
+      vitest: 4.1.3(@types/node@25.5.2)(@vitest/coverage-istanbul@4.1.3)(jsdom@29.0.2)(msw@2.13.2)(vite@7.3.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2886,7 +2886,7 @@ packages:
       tinyrainbow: 3.1.0
     dev: true
 
-  /@vitest/mocker@4.1.3(msw@2.13.1)(vite@7.3.2):
+  /@vitest/mocker@4.1.3(msw@2.13.2)(vite@7.3.2):
     resolution: {integrity: sha512-XN3TrycitDQSzGRnec/YWgoofkYRhouyVQj4YNsJ5r/STCUFqMrP4+oxEv3e7ZbLi4og5kIHrZwekDJgw6hcjw==}
     peerDependencies:
       msw: ^2.4.9
@@ -2900,7 +2900,7 @@ packages:
       '@vitest/spy': 4.1.3
       estree-walker: 3.0.3
       magic-string: 0.30.21
-      msw: 2.13.1(@types/node@25.5.2)(typescript@5.9.3)
+      msw: 2.13.2(@types/node@25.5.2)(typescript@5.9.3)
       vite: 7.3.2(@types/node@25.5.2)
     dev: true
 
@@ -6398,8 +6398,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.13.1(@types/node@25.5.2)(typescript@5.9.3):
-    resolution: {integrity: sha512-4wjFzJ+osaUDS2OakrXSl5tCFBUbzsaHbi5QRycRtVciOuYmnWn16CpNxcqh3UyslFkHbzKaj/GfYr7Hn67QPQ==}
+  /msw@2.13.2(@types/node@25.5.2)(typescript@5.9.3):
+    resolution: {integrity: sha512-go2H1TIERKkC48pXiwec5l6sbNqYuvqOk3/vHGo1Zd+pq/H63oFawDQerH+WQdUw/flJFHDG7F+QdWMwhntA/A==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -8495,7 +8495,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@4.1.3(@types/node@25.5.2)(@vitest/coverage-istanbul@4.1.3)(jsdom@29.0.2)(msw@2.13.1)(vite@7.3.2):
+  /vitest@4.1.3(@types/node@25.5.2)(@vitest/coverage-istanbul@4.1.3)(jsdom@29.0.2)(msw@2.13.2)(vite@7.3.2):
     resolution: {integrity: sha512-DBc4Tx0MPNsqb9isoyOq00lHftVx/KIU44QOm2q59npZyLUkENn8TMFsuzuO+4U2FUa9rgbbPt3udrP25GcjXw==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -8539,7 +8539,7 @@ packages:
       '@types/node': 25.5.2
       '@vitest/coverage-istanbul': 4.1.3(vitest@4.1.3)
       '@vitest/expect': 4.1.3
-      '@vitest/mocker': 4.1.3(msw@2.13.1)(vite@7.3.2)
+      '@vitest/mocker': 4.1.3(msw@2.13.2)(vite@7.3.2)
       '@vitest/pretty-format': 4.1.3
       '@vitest/runner': 4.1.3
       '@vitest/snapshot': 4.1.3
