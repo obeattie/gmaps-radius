@@ -75,7 +75,7 @@
 		"postcss": "8.5.9",
 		"prettier": "3.8.2",
 		"prettier-plugin-tailwindcss": "0.7.2",
-		"start-server-and-test": "3.0.0",
+		"start-server-and-test": "3.0.2",
 		"stylelint": "15.11.0",
 		"stylelint-config-prettier": "9.0.5",
 		"stylelint-config-standard": "40.0.0",
