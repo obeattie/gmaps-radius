@@ -164,8 +164,8 @@ devDependencies:
     specifier: 0.7.2
     version: 0.7.2(prettier@3.8.2)
   start-server-and-test:
-    specifier: 3.0.0
-    version: 3.0.0
+    specifier: 3.0.2
+    version: 3.0.2
   stylelint:
     specifier: 15.11.0
     version: 15.11.0(typescript@5.9.3)
@@ -3233,8 +3233,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios@1.14.0(debug@4.4.3):
-    resolution: {integrity: sha512-3Y8yrqLSwjuzpXuZ0oIYZ/XGgLwUIBU3uLvbcpb0pidD9ctpShJd43KSlEEkVQg6DS0G9NKyzOvBfUtDKEyHvQ==}
+  /axios@1.15.0(debug@4.4.3):
+    resolution: {integrity: sha512-wWyJDlAatxk30ZJer+GeCWS209sA42X+N5jU2jy6oHTp7ufw8uzUTVFBX9+wTfAlhiJXGS0Bq7X6efruWjuK9Q==}
     dependencies:
       follow-redirects: 1.15.11(debug@4.4.3)
       form-data: 4.0.5
@@ -7652,8 +7652,8 @@ packages:
     resolution: {integrity: sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==}
     dev: true
 
-  /start-server-and-test@3.0.0:
-    resolution: {integrity: sha512-R//IdnWC+H+raB6zJIqw5QbIsMAjjYFwJC/OIJO6kgZljguYe4n4LlA7vkPTO7zoctFlVPfymsNShjcPOIH8nw==}
+  /start-server-and-test@3.0.2:
+    resolution: {integrity: sha512-g6v4zPr1RRL5XxXJ+Wnk1GFLb+DGZLjFqse+5lNZ0X7m4SRMC6eOA+AXYboQDfNCEjpnTu0AGrvJb/JTUOg8dQ==}
     engines: {node: ^22 || >=24}
     hasBin: true
     dependencies:
@@ -7664,7 +7664,7 @@ packages:
       execa: 5.1.1
       lazy-ass: 1.6.0
       tree-kill: 1.2.2
-      wait-on: 9.0.4(debug@4.4.3)
+      wait-on: 9.0.5(debug@4.4.3)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8570,12 +8570,12 @@ packages:
       xml-name-validator: 5.0.0
     dev: true
 
-  /wait-on@9.0.4(debug@4.4.3):
-    resolution: {integrity: sha512-k8qrgfwrPVJXTeFY8tl6BxVHiclK11u72DVKhpybHfUL/K6KM4bdyK9EhIVYGytB5MJe/3lq4Tf0hrjM+pvJZQ==}
+  /wait-on@9.0.5(debug@4.4.3):
+    resolution: {integrity: sha512-qgnbHDfDTRIp73ANEJNRW/7kn8CrDUcvZz18xotJQku/P4saTGkbIzvnMZebPmVvVNUiRq1qWAPyqCH+W4H8KA==}
     engines: {node: '>=20.0.0'}
     hasBin: true
     dependencies:
-      axios: 1.14.0(debug@4.4.3)
+      axios: 1.15.0(debug@4.4.3)
       joi: 18.1.2
       lodash: 4.18.1
       minimist: 1.2.8
