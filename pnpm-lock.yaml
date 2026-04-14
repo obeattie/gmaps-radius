@@ -86,8 +86,8 @@ devDependencies:
     specifier: 4.1.4
     version: 4.1.4(vitest@4.1.4)
   autoprefixer:
-    specifier: 10.4.27
-    version: 10.4.27(postcss@8.5.9)
+    specifier: 10.5.0
+    version: 10.5.0(postcss@8.5.9)
   commitizen:
     specifier: 4.3.1
     version: 4.3.1(@types/node@25.6.0)(typescript@5.9.3)
@@ -3196,8 +3196,8 @@ packages:
     engines: {node: '>= 4.0.0'}
     dev: true
 
-  /autoprefixer@10.4.27(postcss@8.5.9):
-    resolution: {integrity: sha512-NP9APE+tO+LuJGn7/9+cohklunJsXWiaWEfV3si4Gi/XHDwVNgkwr1J3RQYFIvPy76GmJ9/bW8vyoU1LcxwKHA==}
+  /autoprefixer@10.5.0(postcss@8.5.9):
+    resolution: {integrity: sha512-FMhOoZV4+qR6aTUALKX2rEqGG+oyATvwBt9IIzVR5rMa2HRWPkxf+P+PAJLD1I/H5/II+HuZcBJYEFBpq39ong==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
