@@ -9,8 +9,8 @@ overrides:
 
 dependencies:
   '@react-hookz/web':
-    specifier: 25.2.0
-    version: 25.2.0(react-dom@19.2.6)(react@19.2.6)
+    specifier: 26.1.0
+    version: 26.1.0(react-dom@19.2.6)(react@19.2.6)
   '@tanstack/react-query':
     specifier: 5.100.9
     version: 5.100.9(react@19.2.6)
@@ -2035,8 +2035,8 @@ packages:
     resolution: {integrity: sha512-U69T3ItWHvLwGg5eJ0n3I62nWuE6ilHlmz7zM0npLBRvPRd7e6NYmg54vvRtP5mZG7kZqZCFVdsTWo7BPtBujg==}
     dev: true
 
-  /@react-hookz/web@25.2.0(react-dom@19.2.6)(react@19.2.6):
-    resolution: {integrity: sha512-60iU7lGnZOjdkNVpu/8xNEnTPVQQ5ckauIEvsh9S+58v2j/mY1lhgNas+w+9UF8VoUhWC4/cpaxT64EUC6DgsQ==}
+  /@react-hookz/web@26.1.0(react-dom@19.2.6)(react@19.2.6):
+    resolution: {integrity: sha512-GKErtGGoaPNWc8rp4SE/rVgJT1kJ/3s6n3q+Vs6DM4TRVsLqbsIGU9u3jTwcV3tCYgxAwz9DqJZxCaal89Lxqg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       js-cookie: ^3.0.5
@@ -2046,7 +2046,7 @@ packages:
       js-cookie:
         optional: true
     dependencies:
-      '@ver0/deep-equal': 1.0.1
+      '@ver0/deep-equal': 2.0.1
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
     dev: false
@@ -2846,9 +2846,9 @@ packages:
     resolution: {integrity: sha512-WmoN8qaIAo7WTYWbAZuG8PYEhn5fkz7dZrqTBZ7dtt//lL2Gwms1IcnQ5yHqjDfX8Ft5j4YzDM23f87zBfDe9g==}
     dev: true
 
-  /@ver0/deep-equal@1.0.1:
-    resolution: {integrity: sha512-XSvL5wKXBZIv7fflMqhQx936sRpEtzxeV25xAEt0rLLXzbF6RCQaRA1jrVIn8JCubMyn/y0TaidphUtilLzl1A==}
-    engines: {node: '>=18'}
+  /@ver0/deep-equal@2.0.1:
+    resolution: {integrity: sha512-JVSbDwzKASqorJum+ATnnZNIkni4K4G3aeJDsTgEhHcm0CiCwAVaLbhFByeNAir1HExEWjHxhIXVR+d8ZzeJGw==}
+    engines: {node: '>=20'}
     dev: false
 
   /@vitejs/plugin-react@4.7.0(vite@7.3.3):
