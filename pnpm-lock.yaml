@@ -116,8 +116,8 @@ devDependencies:
     specifier: 10.1.8
     version: 10.1.8(eslint@8.57.1)
   eslint-plugin-cypress:
-    specifier: 6.4.1
-    version: 6.4.1(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)
+    specifier: 6.4.4
+    version: 6.4.4(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)
   eslint-plugin-import:
     specifier: 2.32.0
     version: 2.32.0(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)
@@ -4389,8 +4389,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-cypress@6.4.1(@typescript-eslint/parser@7.18.0)(eslint@8.57.1):
-    resolution: {integrity: sha512-8mnfR3q0Lr41Fu9SYZGeZ5nbSBgtS44+bbtSs7k0KvfoQ2pPmK43IvaTP6FGTfwBTN6S7w027CpqjrLAd65AYA==}
+  /eslint-plugin-cypress@6.4.4(@typescript-eslint/parser@7.18.0)(eslint@8.57.1):
+    resolution: {integrity: sha512-ez6i14V0xYrq0DMKQmKPeWpi9XP8RI8GK6YT657yOnVlg72PUyR2psgVmC3jXjpTAXVdyB5VDoQPN/ytaw9+Pg==}
     peerDependencies:
       '@typescript-eslint/parser': '>=8'
       eslint: '>=9'
@@ -4400,7 +4400,7 @@ packages:
     dependencies:
       '@typescript-eslint/parser': 7.18.0(eslint@8.57.1)(typescript@5.9.3)
       eslint: 8.57.1
-      globals: 17.6.0
+      globals: 17.12.0
     dev: true
 
   /eslint-plugin-import@2.32.0(@typescript-eslint/parser@7.18.0)(eslint@8.57.1):
@@ -5176,8 +5176,8 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /globals@17.6.0:
-    resolution: {integrity: sha512-sepffkT8stwnIYbsMBpoCHJuJM5l98FUF2AnE07hfvE0m/qp3R586hw4jF4uadbhvg1ooIdzuu7CsfD2jzCaNA==}
+  /globals@17.12.0:
+    resolution: {integrity: sha512-cezEd/DTyyht9cvSSURyygXPfy04GtWO/5e6ZPvH7fCtjKz9PYOmuawphw1Ctd1f6C+5JypXfGD7ahNMXvevBA==}
     engines: {node: '>=18'}
     dev: true
 
