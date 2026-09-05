@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6.0.2
 
-      - uses: pnpm/action-setup@v6.0.5
+      - uses: pnpm/action-setup@v6.1.0
         with:
           version: latest
 
