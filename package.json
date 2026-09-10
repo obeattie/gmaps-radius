@@ -68,7 +68,7 @@
 		"eslint-plugin-testing-library": "7.16.2",
 		"eslint-plugin-unicorn": "56.0.1",
 		"husky": "9.1.7",
-		"jsdom": "29.1.1",
+		"jsdom": "30.0.1",
 		"lint-staged": "17.0.2",
 		"msw": "2.14.3",
 		"npm-run-all2": "8.0.4",
