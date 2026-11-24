@@ -30,8 +30,8 @@ dependencies:
     specifier: 5.0.0
     version: 5.0.0(leaflet@1.9.4)(react-dom@19.2.6)(react@19.2.6)
   react-router-dom:
-    specifier: 7.15.0
-    version: 7.15.0(react-dom@19.2.6)(react@19.2.6)
+    specifier: 7.18.7
+    version: 7.18.7(@types/react@19.2.14)(react-dom@19.2.6)(react@19.2.6)
 
 devDependencies:
   '@nabla/vite-plugin-eslint':
@@ -2587,7 +2587,6 @@ packages:
     resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
     dependencies:
       csstype: 3.2.3
-    dev: true
 
   /@types/resolve@1.20.2:
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -3785,7 +3784,6 @@ packages:
 
   /csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
-    dev: true
 
   /cypress@15.14.2:
     resolution: {integrity: sha512-xMWg/iEImeIThRQZdnf3BFJT1a84apM/R91Feoa4vVWGuYWDphMT5jLhRVTBVlCgi+6axegF1zqhNyjhug2SsQ==}
@@ -6983,8 +6981,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom@7.15.0(react-dom@19.2.6)(react@19.2.6):
-    resolution: {integrity: sha512-VcrVg64Fo8nwBvDscajG8gRTLIuTC6N50nb22l2HOOV4PTOHgoGp8mUjy9wLiHYoYTSYI36tUnXZgasSRFZorQ==}
+  /react-router-dom@7.18.7(@types/react@19.2.14)(react-dom@19.2.6)(react@19.2.6):
+    resolution: {integrity: sha512-EBWBKV1TjvScebAIvidowN0Bfh9Bg7p54IDBRVJkFXz0wBKTBblDNLxUvCewx/GdzTiC7VWV/MOjWqsLWEMygA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -6992,19 +6990,25 @@ packages:
     dependencies:
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
-      react-router: 7.15.0(react-dom@19.2.6)(react@19.2.6)
+      react-router: 7.18.7(@types/react@19.2.14)(react-dom@19.2.6)(react@19.2.6)
+    transitivePeerDependencies:
+      - '@types/react'
     dev: false
 
-  /react-router@7.15.0(react-dom@19.2.6)(react@19.2.6):
-    resolution: {integrity: sha512-HW9vYwuM8f4yx66Izy8xfrzCM+SBJluoZcCbww9A1TySax11S5Vgw6fi3ZjMONw9J4gQwngL7PzkyIpJJpJ7RQ==}
+  /react-router@7.18.7(@types/react@19.2.14)(react-dom@19.2.6)(react@19.2.6):
+    resolution: {integrity: sha512-nXl672FFobymVY/Ywbo0DnlXV/+VXOB5pOslCeuVqoegwwL7sau2yASdyGoWHvPRxAoqUBrAiFZRdli4nT7Wow==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
+      '@types/react': '>=18'
       react: '>=18'
       react-dom: '>=18'
     peerDependenciesMeta:
+      '@types/react':
+        optional: true
       react-dom:
         optional: true
     dependencies:
+      '@types/react': 19.2.14
       cookie: 1.1.1
       react: 19.2.6
       react-dom: 19.2.6(react@19.2.6)
