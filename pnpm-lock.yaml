@@ -113,8 +113,8 @@ devDependencies:
     specifier: 18.0.0
     version: 18.0.0(@typescript-eslint/eslint-plugin@7.18.0)(@typescript-eslint/parser@7.18.0)(eslint-plugin-import@2.32.0)(eslint@8.57.1)
   eslint-config-prettier:
-    specifier: 10.1.8
-    version: 10.1.8(eslint@8.57.1)
+    specifier: 10.1.9
+    version: 10.1.9(eslint@8.57.1)
   eslint-plugin-cypress:
     specifier: 6.4.1
     version: 6.4.1(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)
@@ -4341,8 +4341,8 @@ packages:
       object.entries: 1.1.9
     dev: true
 
-  /eslint-config-prettier@10.1.8(eslint@8.57.1):
-    resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
+  /eslint-config-prettier@10.1.9(eslint@8.57.1):
+    resolution: {integrity: sha512-JnOR0K4u67CWOiSS3vaduGlLUWS32lGiyglMIV6AyvK9DBRpS+QhR2ESKaUe2eWGRsdVmrxy77yaOk2hzDa4Bg==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
